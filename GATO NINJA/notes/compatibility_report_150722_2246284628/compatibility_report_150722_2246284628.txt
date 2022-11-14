@@ -1,0 +1,141 @@
+!!! A fonte font_padrao usa uma fonte (Peleja) não instalada neste sistema - a fonte NÃO foi regenerada
+A textura da fonte do GameMaker Studio 1 foi copiada em ${project_dir}\fonts\font_padrao\font_padrao.gms1.png
+!!! A fonte font_grande usa uma fonte (Peleja) não instalada neste sistema - a fonte NÃO foi regenerada
+A textura da fonte do GameMaker Studio 1 foi copiada em ${project_dir}\fonts\font_grande\font_grande.gms1.png
+Convertendo script GML: ${project_dir}\objects\obj_player_controles\Draw_64.gml
+Interna convertida - linha 12: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 13: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 25: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 25: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 50: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 50: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 51: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 51: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 52: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 52: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 53: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 53: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 54: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 54: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 55: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 55: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 56: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 56: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 57: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 57: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 64: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 64: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 65: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 65: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 66: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 66: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 67: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 67: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 68: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 68: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 69: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 69: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 70: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 70: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 71: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 71: view_wview -> __view_get( e__VW.WView, 0 )
+Interna convertida - linha 12: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 13: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 25: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 50: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 50: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 51: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 51: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 52: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 52: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 53: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 53: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 54: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 54: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 55: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 55: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 56: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 56: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 57: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 57: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 64: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 64: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 65: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 65: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 66: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 66: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 67: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 67: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 68: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 68: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 69: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 69: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 70: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 70: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 71: view_hview -> __view_get( e__VW.HView, 0 )
+Interna convertida - linha 71: view_hview -> __view_get( e__VW.HView, 0 )
+
+Convertendo script GML: ${project_dir}\objects\obj_piranha\Create_0.gml
+Cadeia convertida - linha 1: 'direita' -> "direita"
+
+Convertendo script GML: ${project_dir}\objects\obj_piranha\Step_0.gml
+Cadeia convertida - linha 1: 'direita' -> "direita"
+Cadeia convertida - linha 5: 'esquerda' -> "esquerda"
+Cadeia convertida - linha 10: 'esquerda' -> "esquerda"
+Cadeia convertida - linha 14: 'direita' -> "direita"
+
+Convertendo script GML: ${project_dir}\objects\obj_piranha2\Create_0.gml
+Cadeia convertida - linha 1: 'direita' -> "direita"
+
+Convertendo script GML: ${project_dir}\objects\obj_piranha2\Step_0.gml
+Cadeia convertida - linha 1: 'direita' -> "direita"
+Cadeia convertida - linha 5: 'esquerda' -> "esquerda"
+Cadeia convertida - linha 10: 'esquerda' -> "esquerda"
+Cadeia convertida - linha 14: 'direita' -> "direita"
+
+Convertendo script GML: ${project_dir}\objects\mira_camera\Step_0.gml
+Interna convertida - linha 24: view_wview = 640+a -> __view_set( e__VW.WView, 0, 640+a )
+Interna convertida - linha 25: view_hview = 360+b -> __view_set( e__VW.HView, 0, 360+b )
+
+Convertendo script GML: instance inst_048F8A81 creation code
+Cadeia convertida - linha 1: 'esquerda' -> "esquerda"
+
+Convertendo script GML: instance inst_D34787A5 creation code
+Cadeia convertida - linha 1: 'esquerda' -> "esquerda"
+
+Grupo de áudio ausente para som: “amazonia” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “punch” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “pulosound” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “movesound” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “dashsound” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “selectsound” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “snd_ok” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “sound8” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “OST_telainicial” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “OST_selecao1” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “OST_selecao2” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “OST_selecao3” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “OST_selecao” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “OST_amazonia_ambiente” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “OST_amazonia1” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “OST_amazonia2” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “OST_amazonia3” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “SFX_soco_no_ar” - configurando para o grupo de áudio padrão
+Grupo de áudio ausente para som: “amazonia3” - configurando para o grupo de áudio padrão
+Jogo velocidade definido para 60
+Compatibilidade de script adicionado: action/action_another_room.gml
+Compatibilidade de script adicionado: action/action_create_object.gml
+Compatibilidade de script adicionado: action/action_if_number.gml
+Compatibilidade de script adicionado: action/action_kill_object.gml
+Compatibilidade de script adicionado: action/action_move_to.gml
+Compatibilidade de script adicionado: action/action_set_alarm.gml
+Compatibilidade de script adicionado: action/action_set_relative.gml
+Compatibilidade de script adicionado: instance/instance_create.gml
+Compatibilidade de script adicionado: object/object_get_depth.gml
+Compatibilidade de script adicionado: view/__view_get.gml
+Compatibilidade de script adicionado: view/__view_set.gml
+Compatibilidade de script adicionado: view/__view_set_internal.gml
+Compatibilidade de script adicionado: action/__init_action.gml
+Compatibilidade de script adicionado: view/__init_view.gml
+Compatibilidade de script adicionado: __init_global.gml
+Compatibilidade de script adicionado: __global_object_depths.gml

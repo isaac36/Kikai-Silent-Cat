@@ -1,0 +1,2 @@
+sala = room_selecao;
+
