@@ -1,14 +1,12 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-
-
 x=obj_gato.x;
 y=obj_gato.y;
 
 draw_set_color(c_white);
 
-if(obj_gato.distanciaDoAlvo!=false)and(obj_gato.alvo!=-1){
+if(obj_tela_escura.image_alpha>0){
 
 volume = (obj_tela_escura.image_alpha+0.1);
 

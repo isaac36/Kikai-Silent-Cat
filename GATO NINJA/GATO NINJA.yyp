@@ -235,6 +235,7 @@
     {"id":{"name":"win","path":"scripts/win/win.yy",},"order":19,},
     {"id":{"name":"spr_template_ar_especial_cima","path":"sprites/spr_template_ar_especial_cima/spr_template_ar_especial_cima.yy",},"order":7,},
     {"id":{"name":"action_another_room","path":"scripts/action_another_room/action_another_room.yy",},"order":1,},
+    {"id":{"name":"obj_tela_escura80","path":"objects/obj_tela_escura80/obj_tela_escura80.yy",},"order":34,},
     {"id":{"name":"action_create_object","path":"scripts/action_create_object/action_create_object.yy",},"order":3,},
     {"id":{"name":"action_if_number","path":"scripts/action_if_number/action_if_number.yy",},"order":5,},
     {"id":{"name":"sfx_inimigo_hitado2","path":"sounds/sfx_inimigo_hitado2/sfx_inimigo_hitado2.yy",},"order":1,},
