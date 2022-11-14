@@ -13,7 +13,7 @@
     "name": "spr_inimigo",
     "path": "sprites/spr_inimigo/spr_inimigo.yy",
   },
-  "persistent": true,
+  "persistent": false,
   "parentObjectId": {
     "name": "obj_personagem_generico",
     "path": "objects/obj_personagem_generico/obj_personagem_generico.yy",

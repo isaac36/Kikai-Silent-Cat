@@ -3,6 +3,12 @@
 
 draw_self();
 
+if(place_meeting(x,y,obj_porta)){
+	
+draw_sprite(spr_K,0,x,y-120);
+
+}
+
 if(alvo!=-1){
 distanciaDoAlvo = distance_to_object(alvo);
 }else{distanciaDoAlvo=999999}

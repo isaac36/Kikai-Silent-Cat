@@ -37,11 +37,11 @@ function pulando2(){
 	
 
 
-/*
 	//leve
 	
 	
-	if(BOTAO_ATAQUE)and(!BOTAO_BAIXO)and(!BOTAO_CIMA)and(CD_lado_ataque==false){cont_animacao=0;estado=leve_ar;CD_lado_ataque=true;alarm[6]=25;}
+	if(BOTAO_ATAQUE){cont_animacao=0;estado=leve_ar;CD_lado_ataque=true;alarm[6]=25}
+		/*
 	if(BOTAO_ATAQUE)and(BOTAO_BAIXO)and(!BOTAO_CIMA)and(CD_baixo_ataque==false){cont_animacao=0;estado=leve_baixo_ar;CD_baixo_ataque=true;alarm[5]=25;}
 	if(BOTAO_ATAQUE)and(BOTAO_CIMA)and(!BOTAO_BAIXO)and(CD_cima_ataque==false){cont_animacao=0;estado=leve_cima_ar;CD_cima_ataque=true;alarm[7]=25;}
 	//forte
@@ -50,6 +50,7 @@ function pulando2(){
 	if(BOTAO_ATAQUE2)and(BOTAO_BAIXO)and(CD_baixo_ataque_forte==false){descer=false;cont_animacao=0;estado=forte_baixo_ar;CD_baixo_ataque_forte=true;alarm[8]=30;}
 
 */
+
 	
 	cont_animacao++;
 	
