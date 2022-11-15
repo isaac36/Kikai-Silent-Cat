@@ -3,11 +3,13 @@
 function IA_luta1(){
 	
 	img_andando = spr_inimigo_correndo;
+	img_parado = spr_inimigo_parado2;
 
 	loop_controlador.modoinimigo = "luta";
 
 if(instance_exists(obj_gato))and(estado!=solado)and(estado!=dash){
 	
+	    aleatorio = irandom_range(0,20);
 	
 	
 		if(obj_gato.y-10>y){descer=true;}else{descer=false;}
@@ -23,7 +25,7 @@ if(instance_exists(obj_gato))and(estado!=solado)and(estado!=dash){
 			
 			paciencia=0;
 			
-			aleatorio = irandom_range(0,20);
+			
 			
 			if(aleatorio<2)and(estado!=dash){BOTAO_DASH=true;}else{BOTAO_DASH=false;}
 			if(aleatorio>=2){BOTAO_ATAQUE=true;}

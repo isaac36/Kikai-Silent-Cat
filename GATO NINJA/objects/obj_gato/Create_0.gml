@@ -1,7 +1,13 @@
 
 event_inherited();
 
+if(!instance_exists(loop_controlador)){instance_create(x,y,loop_controlador);}
+
+cont_gameover=0;
+
 ultimoalvo = -1;
+
+estadomorto=gato_morto;
 
 distanciaExecucao = 999998;//-1 que o alvo
 
@@ -31,7 +37,7 @@ img_andando = spr_gato_andando;
 img_escorar = spr_gato_escalando;
 img_escorando = spr_gato_escorando;
 img_jogado = spr_gato;
-
+img_morto = spr_gato_morto;
 
 
 

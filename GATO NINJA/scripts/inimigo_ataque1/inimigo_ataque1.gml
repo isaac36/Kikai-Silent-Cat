@@ -30,6 +30,7 @@ function inimigo_ataque1(){
 	target.somHit = punch;
 	audio_play_sound(sfx_hitAr,0,0);
 	target.image_yscale = 2;
+	target.vida = 10;
 	}
 
 

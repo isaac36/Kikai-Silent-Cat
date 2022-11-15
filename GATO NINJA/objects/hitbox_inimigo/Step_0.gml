@@ -15,7 +15,7 @@ x = dono.x+posX;
 y = dono.y+posY;
 
 
-if(target.estado!=morto)and(target.estado!=solado)and(place_meeting(x,y,target))and(bateu==0)and(target.invuneravel==false)and(player!=target.player){
+if(target.estado!=morto)and(!target.apanhou)and(target.estado!=solado)and(place_meeting(x,y,target))and(bateu==0)and(target.invuneravel==false)and(player!=target.player){
 
 audio_play_sound(punch,0,0);
 

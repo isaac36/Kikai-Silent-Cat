@@ -35,7 +35,7 @@ image_blend=croma;
 
 
 if(debug==true){
-	
+/*	
 draw_set_color(c_white);
 
 draw_text(x-50,y-140,"distanciaExecucao: "+string(distanciaExecucao));
@@ -43,7 +43,8 @@ draw_text(x-50,y-140,"distanciaExecucao: "+string(distanciaExecucao));
 draw_text(x-50,y-120,"alvo: "+string((alvo)));
 
 draw_text(x-50,y-100,"distanciaDoAlvo: "+string(distanciaDoAlvo));
-draw_text(x-50,y-80,"velocidadeY: "+string(velocidadeY));
+*/
+draw_text(x-50,y-80,"apanhou: "+string(apanhou));
 
 draw_text(x-50,y-60,"x: "+string(x));
 draw_text(x-50,y-40,"y: "+string(y));

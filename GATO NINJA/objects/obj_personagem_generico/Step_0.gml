@@ -17,7 +17,7 @@ if(keyboard_check(BOTAO_ESPECIAL_SETUP)){BOTAO_ESPECIAL = true;}else {BOTAO_ESPE
 
 
 
-if(modo!=false){
+if(modo!=false)and(obj_gato.estado!=obj_gato.estadomorto){
 
 if(Hey_aviso==false)and(place_meeting(x,y,obj_HEY))and(modo=="patrulha"){Hey_aviso=true;modo="luta";};
 
