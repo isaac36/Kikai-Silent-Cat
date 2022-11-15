@@ -1,19 +1,29 @@
 function solado() {
 	
 	if(cont_animacao==0){image_index=0;}
+	
+	
+	
 
-	if(vida>0){
+		
 	sprite_index = img_solado;
-	}
 	
-	if(modo=="patrulha")and(vida>0){if(alarm[11]==-1)alarm[11]=2;};
 	
+	proporcao = sprite_get_number(sprite_index)/soladotempo;
+	
+	image_index = floor((proporcao*cont_animacao));
+	
+
+
+
+	
+	if(modo=="patrulha")and(vida>0){modo="luta"};
+	
+/*
 	image_angle= random_range(-2,2);
-	
+*/	
 	
 	if(cont_animacao==0){
-	
-	image_blend = c_red;
 	
 	if(velxReal!=false){velocidadeX=velxReal}else
 	velocidadeXadd = soladovelx;
@@ -27,7 +37,7 @@ function solado() {
 
 
 
-	if cont_animacao>soladotempo {
+	if cont_animacao>=soladotempo {
 
 	cont_animacao=0;
 

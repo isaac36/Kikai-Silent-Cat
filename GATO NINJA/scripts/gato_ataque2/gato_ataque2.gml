@@ -20,7 +20,7 @@ function gato_ataque2(){
 	target.dono = instance_nearest(x,y,obj_personagem_generico);
 	target.posX = 32*dir;
 	target.posY = 0;
-	target.soladotempo = 40;
+	target.soladotempo = 40
 	target.vida = 20;
 	target.image_xscale = target.image_xscale*2;
 	target.image_yscale = target.image_yscale*2;

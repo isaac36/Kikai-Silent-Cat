@@ -54,7 +54,7 @@ function pulando2(){
 	
 	cont_animacao++;
 	
-	if(BOTAO_DASH and pode_dash and pode_dash_ar){contdash=0;estado=dash;pode_dash = false;pode_dash_ar = false;alarm[0]=dash_CD;cont_animacao=0;sprite_index=spr_gato_dash;image_index=0;}
+	if(BOTAO_DASH and pode_dash and pode_dash_ar){contdash=0;estado=dash;pode_dash = false;pode_dash_ar = false;alarm[0]=dash_CD;cont_animacao=0;sprite_index=img_dash;image_index=0;}
 
 		//pendurar
 	if(img_parado==spr_gato_parado)and(lado="direita")and(velocidadeX>0)and(place_meeting(x+1,y,obj_wall_escalavel))and(!place_meeting(x,y+5,obj_wall)){

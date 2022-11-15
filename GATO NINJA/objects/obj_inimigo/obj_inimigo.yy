@@ -3,16 +3,13 @@
   "resourceVersion": "1.0",
   "name": "obj_inimigo",
   "spriteId": {
-    "name": "spr_inimigo",
-    "path": "sprites/spr_inimigo/spr_inimigo.yy",
+    "name": "spr_inimigo_parado",
+    "path": "sprites/spr_inimigo_parado/spr_inimigo_parado.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
-  "spriteMaskId": {
-    "name": "spr_inimigo",
-    "path": "sprites/spr_inimigo/spr_inimigo.yy",
-  },
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
     "name": "obj_personagem_generico",

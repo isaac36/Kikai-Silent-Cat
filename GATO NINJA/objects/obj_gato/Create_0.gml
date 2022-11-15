@@ -22,7 +22,7 @@ depth = 0;
 
 img_parado = spr_gato_parado;
 img_caido = spr_gato;
-img_impulso = spr_gato;
+img_impulso = spr_gato_impulso;
 img_dash = spr_gato_dash;
 img_solado = spr_gato_solado;
 img_pulando = spr_gato_pulando;

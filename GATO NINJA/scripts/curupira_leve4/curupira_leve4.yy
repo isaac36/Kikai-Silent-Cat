@@ -6,6 +6,6 @@
   "isCompatibility": false,
   "parent": {
     "name": "curupira",
-    "path": "folders/Scripts/curupira.yy",
+    "path": "folders/Scripts/gato/curupira.yy",
   },
 }

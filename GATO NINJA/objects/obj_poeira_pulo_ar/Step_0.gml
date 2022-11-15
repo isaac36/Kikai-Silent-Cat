@@ -1,7 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-depth=-10;
+depth=10;
 
 if(cont==19){instance_destroy()}
 

@@ -22,7 +22,7 @@ function parado() {
 
 	//};
 
-	if(BOTAO_DASH and pode_dash){contdash=0;estado=dash;pode_dash = false;alarm[0]=dash_CD;cont_animacao=0;sprite_index=spr_gato_dash;image_index=0;}
+	if(BOTAO_DASH and pode_dash){contdash=0;estado=dash;pode_dash = false;alarm[0]=dash_CD;cont_animacao=0;sprite_index=img_dash;image_index=0;}
 
 //leves
 	if(BOTAO_ATAQUE)and(combo==0)and(chao){cont_animacao = 0;estado=leve}

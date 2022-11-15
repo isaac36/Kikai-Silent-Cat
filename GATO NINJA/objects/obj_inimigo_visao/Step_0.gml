@@ -38,7 +38,7 @@ image_xscale = 1;
 
 }
 
-if(place_meeting(x,y,obj_gato)){dono.modo="luta"};
+if(place_meeting(x,y,obj_gato))and(dono.estado!="luta"){dono.estado=inimigo_HEY;dono.modo="luta";};
 
 
 

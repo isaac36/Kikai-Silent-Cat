@@ -19,6 +19,13 @@ if(keyboard_check(BOTAO_ESPECIAL_SETUP)){BOTAO_ESPECIAL = true;}else {BOTAO_ESPE
 
 if(modo!=false){
 
+if(Hey_aviso==false)and(place_meeting(x,y,obj_HEY))and(modo=="patrulha"){Hey_aviso=true;modo="luta";};
+
+if(modo=="patrulha"){velocidadePersonagem=1}else{velocidadePersonagem=3};
+
+
+
+
 
 
 
@@ -79,7 +86,7 @@ image_angle = 0;
 
 
 if(vidamax<vida)vidamax = vida;
-if(vida<=0)and(estado!=estadomorto){cont_animacao=0;image_angle = 0; estado=estadomorto};
+if(vida<=0)and(estado!=estadomorto)and(estado!=solado)and(estado!=solado2)and(estado!=solado3){cont_animacao=0;image_angle = 0; estado=estadomorto};
 
 
 

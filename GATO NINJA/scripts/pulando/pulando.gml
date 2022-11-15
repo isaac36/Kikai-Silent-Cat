@@ -2,7 +2,7 @@ function pulando() {
 	
 	velocidadeY=0;
 	
-	sprite_index=spr_gato_impulso;
+	sprite_index=img_impulso;
 	
 	cont_animacao++;
 	

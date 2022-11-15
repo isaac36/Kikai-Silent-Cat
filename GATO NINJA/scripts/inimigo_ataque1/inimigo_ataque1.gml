@@ -1,9 +1,14 @@
 
 function inimigo_ataque1(){
 	
-	if(cont_animacao==0){velocidadeX=0;};
+	if(cont_animacao==0){image_index=0;}
 	
-if(cont_animacao<8)and(4<cont_animacao)image_blend = (c_red);else{image_blend=c_white;}
+	sprite_index = img_ataque_leve;
+	
+	proporcao = sprite_get_number(sprite_index)/40;
+	
+	image_index = floor((proporcao*cont_animacao));
+
 
     
 	
@@ -24,10 +29,11 @@ if(cont_animacao<8)and(4<cont_animacao)image_blend = (c_red);else{image_blend=c_
 	target.efeito = target.efeitoforte;
 	target.somHit = punch;
 	audio_play_sound(sfx_hitAr,0,0);
+	target.image_yscale = 2;
 	}
 
 
 
 cont_animacao++;
-if(cont_animacao>=20){estado=parado;cont_animacao=0;}
+if(cont_animacao>=40){estado=parado;cont_animacao=0;}
 }

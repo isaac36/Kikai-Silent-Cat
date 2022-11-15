@@ -5,6 +5,7 @@ modo=false;
 patrulhadir = 1;
 contIA = 0;
 paciencia =0;
+Hey_aviso = false;
 
 assassinatoCD=false;
 alvo = -1;
@@ -156,7 +157,9 @@ BOTAO_ESPECIAL_SETUP = -1;
 
 
 
+//movimentos
 
+dash = dash_pra_frente;
 
 //leves
 

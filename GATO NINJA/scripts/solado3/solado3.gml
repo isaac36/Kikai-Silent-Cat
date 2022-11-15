@@ -1,7 +1,7 @@
 
 function solado3(){
 	
-	if(modo=="patrulha")modo="luta";
+	if(modo=="patrulha")and(vida>0)modo="luta";
 	
 	sprite_index = img_jogado;
 	image_index = 2;

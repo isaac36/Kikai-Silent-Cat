@@ -5,49 +5,56 @@ IA_patrulha = IA_patrulha1;
 modo="patrulha";
 vida=120;
 estadomorto=inimigo1_morto;
+velocidadePersonagem = 1;
+
+
+//cormorte
+	morteR = 255;
+	morteG = 255;
+	morteB = 255;
 
 depth = 1;
 player = 2;
 
-img_parado = spr_inimigo;
-img_caido = spr_inimigo;
-img_impulso = spr_inimigo;
-img_dash = spr_inimigo;
-img_solado = spr_inimigo;
-img_pulando = spr_inimigo;
-img_caindo = spr_inimigo;
-img_andando = spr_inimigo;
-img_escorar =  spr_inimigo;
+img_parado = spr_inimigo_parado;
+img_caido = spr_inimigo_morto;
+img_impulso = spr_inimigo_impulso;
+img_dash = spr_inimigo_caindo;
+img_solado = spr_inimigo_solado1;
+img_pulando = spr_inimigo_pulando;
+img_caindo = spr_inimigo_caindo;
+img_andando = spr_inimigo_andando;
+img_escorar =  spr_quadrado;
 img_morto = spr_inimigo_morto;
-img_jogado = spr_inimigo;
+img_jogado = spr_inimigo_jogado;
 
 //chao
 
-img_ataque_leve = spr_inimigo;
-img_ataque_leve2 = spr_inimigo;
-img_ataque_leve_cima = spr_inimigo;
-img_ataque_leve_baixo = spr_inimigo;
+img_ataque_leve = spr_inimigo_ataque1;
+img_ataque_leve2 = spr_quadrado;
+img_ataque_leve_cima = spr_quadrado;
+img_ataque_leve_baixo = spr_quadrado;
 
-img_ataque_forte = spr_inimigo;
-img_ataque_forte_cima = spr_inimigo;
-img_ataque_forte_baixo = spr_inimigo;
+img_ataque_forte = spr_quadrado;
+img_ataque_forte_cima = spr_quadrado;
+img_ataque_forte_baixo = spr_quadrado;
 
-img_ataque_especial = spr_inimigo;
-img_ataque_especial_baixo = spr_inimigo;
-img_ataque_especial_cima = spr_inimigo;
+img_ataque_especial = spr_quadrado;
+img_ataque_especial_baixo = spr_quadrado;
+img_ataque_especial_cima = spr_quadrado;
 
 //ar
 
-img_ataque_leve_ar = spr_inimigo;
-img_ataque_leve_cima_ar = spr_inimigo;
-img_ataque_leve_baixo_ar = spr_inimigo;
+img_ataque_leve_ar = spr_quadrado;
+img_ataque_leve_cima_ar = spr_quadrado;
+img_ataque_leve_baixo_ar = spr_quadrado;
 
-img_ataque_forte_ar = spr_inimigo;
-img_ataque_forte_baixo_ar = spr_inimigo;
+img_ataque_forte_ar = spr_quadrado;
+img_ataque_forte_baixo_ar = spr_quadrado;
 
-img_ataque_especial_ar = spr_inimigo;
-img_ataque_especial_baixo_ar = spr_inimigo;
-img_ataque_especial_cima_ar = spr_inimigo;
+img_ataque_especial_ar = spr_quadrado;
+img_ataque_especial_baixo_ar = spr_quadrado;
+img_ataque_especial_cima_ar = spr_quadrado;
 
 //
 
@@ -60,15 +67,16 @@ retrato2 = foto_personagem_hit;
 nome="Personagem";
 
 
-escalaX = 1;
-escalaY = 1;
+escalaX = 1.2;
+escalaY = 1.2;
 
 image_speed = 0.4;
 
 
 
 
-
+//mov
+dash=inimigo_dash;
 
 //leves
 

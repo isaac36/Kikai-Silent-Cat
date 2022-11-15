@@ -28,8 +28,8 @@ target.veldir=veldir;
 target.soladotempo = soladotempo;
 if(velxReal!=false){target.velocidadeX=velxReal;}
 target.velocidadeRotacao=velocidadeRotacao;
-target.vida -= vida;
 if(target.vida>0)target.estado=estado;
+target.vida -= vida;
 audio_play_sound(somHit,0,0);
 
 
@@ -52,7 +52,6 @@ targetEfeito.image_angle = efeitoAngulo;
 if(sangue==true){
 dono.ultimosanguehit = instance_create(x,y-sprite_height/2,efeitoSangue);
 dono.ultimosanguehit.image_xscale = veldir;
-dono.ultimosanguehit.image_blend = make_color_rgb(0,0,0);
 dono.ultimosangueparede = instance_create(x,y-(sprite_height/2),obj_sangue_parede1);
 
 }
@@ -60,6 +59,7 @@ dono.ultimosangueparede = instance_create(x,y-(sprite_height/2),obj_sangue_pared
 if(telavermelha == true){
 telavermelha = instance_create(x,y,obj_tela_vermela);
 telavermelha.dono = dono;
+dono.ultimosanguehit.image_blend = make_color_rgb(0,0,0);
 }
 
 

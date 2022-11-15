@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
 function solado2(){
 	
-	if(modo=="patrulha")modo="luta";
+	if(modo=="patrulha")and(vida>0)modo="luta";
 	
 	sprite_index = img_jogado;
 	
