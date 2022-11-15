@@ -1,6 +1,8 @@
 
 event_inherited();
 
+frequencia_desenho = 0;
+
 if(!instance_exists(loop_controlador)){instance_create(x,y,loop_controlador);}
 
 cont_gameover=0;

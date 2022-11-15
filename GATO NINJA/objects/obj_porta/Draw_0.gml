@@ -5,3 +5,22 @@
 
 
 
+frequencia_desenho = frequencia_desenho+1;
+if(frequencia_desenho>10){frequencia_desenho=0}
+
+if(cor<tendencia){cor=cor+2}
+if(cor>tendencia){cor=cor-2}
+
+if(cor>255){cor=255}
+if(cor<0){cor=0}
+	
+if(pode_abrir==true){
+draw_sprite_ext(spr_seta,floor(frequencia_desenho/5),x,y-120,1,1,0,make_color_rgb(255,cor,cor),0.5);
+tendencia = 255;
+}else{
+
+draw_sprite_ext(spr_seta,floor(frequencia_desenho/5),x,y-120,1,1,0,make_color_rgb(255,cor,cor),0.5);
+
+tendencia = 0; 
+
+}

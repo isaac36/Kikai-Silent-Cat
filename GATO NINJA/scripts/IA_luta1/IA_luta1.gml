@@ -2,6 +2,9 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
 function IA_luta1(){
 	
+	if((instance_exists(obj_porta))and((distance_to_object(obj_gato))<300)){portafechada=instance_nearest(x,y,obj_porta);portafechada.pode_abrir=false;}
+	
+	
 	img_andando = spr_inimigo_correndo;
 	img_parado = spr_inimigo_parado2;
 

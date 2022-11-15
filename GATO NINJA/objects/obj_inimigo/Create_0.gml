@@ -6,6 +6,7 @@ modo="patrulha";
 vida=120;
 estadomorto=inimigo1_morto;
 velocidadePersonagem = 1;
+portafechada = -1;
 
 
 //cormorte

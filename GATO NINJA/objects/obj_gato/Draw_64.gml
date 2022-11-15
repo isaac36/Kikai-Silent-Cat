@@ -1,6 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+
 for(i=0;i<vidamax;i++){
 	
 draw_sprite_ext(spr_barrinha_de_life_red,0,
