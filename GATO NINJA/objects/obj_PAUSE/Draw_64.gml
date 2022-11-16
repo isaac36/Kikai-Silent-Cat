@@ -19,7 +19,13 @@ if(pausecursor>1){pausecursor=0};
 if(pausecursor<0){pausecursor=1};
 
 
+
+
+//TEXTO
 //draw_set_font();
+draw_set_color(c_white);
+draw_set_halign(fa_middle);
+draw_set_font(font_GAMEOVER);
 
 //Despausar
 draw_text_color(camera_get_view_width(view_camera[0]),

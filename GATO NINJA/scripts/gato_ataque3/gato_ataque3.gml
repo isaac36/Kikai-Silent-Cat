@@ -4,10 +4,14 @@ function gato_ataque3(){
 	
 	sprite_index = spr_gato_ataque3;
 	
+	proporcao = sprite_get_number(sprite_index)/45;
+	
+	image_index = floor((proporcao*cont_animacao));
+	
 	if(cont_animacao==0)velocidadeX=10*dir;
 
 
-	if(cont_animacao==25){target=instance_create(x+(32*dir),y,hitbox_gato);
+	if(cont_animacao==20){target=instance_create(x+(32*dir),y,hitbox_gato);
 	target.estado=solado3;
 	target.velxReal=(9*dir);
 	target.vely=-5;
@@ -35,10 +39,10 @@ if(cont_animacao==15){velocidadeY=5;};
 cont_animacao++;
 
 
-if(cont_animacao>=55){estado=parado;combo=0;cont_animacao=0;}
+if(cont_animacao>=45){estado=parado;combo=0;cont_animacao=0;}
 
 
-if(cont_animacao>40){
+if(cont_animacao>30){
 	if((BOTAO_ESQUERDA)or(BOTAO_DIREITA)){estado=andando};
     
 	if(BOTAO_PULO)and(!BOTAO_BAIXO)and(chao){estado=pulando;cont_animacao=0;sprite_index = img_impulso;}

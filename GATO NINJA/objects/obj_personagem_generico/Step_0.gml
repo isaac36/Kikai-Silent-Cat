@@ -1,4 +1,4 @@
-
+if(room==Menu){instance_destroy();}
 if(global.pause==true){
 	
 	if(salvei==false){

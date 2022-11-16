@@ -1,5 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+if(!instance_exists(dono)){instance_destroy()}
+
 
 x=dono.x;
 y=dono.y;

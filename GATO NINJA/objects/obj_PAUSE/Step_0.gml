@@ -9,6 +9,6 @@ global.pause=!global.pause;
 
 };
 
-if((global.podedarpause==false)or(obj_gato.vida<=0))and(global.pause==true){global.pause=false};
+if((global.podedarpause==false)or((instance_exists(obj_gato))and(obj_gato.vida<=0)))and(global.pause==true){global.pause=false};
 
 if(!instance_exists(obj_gato)){instance_destroy();};

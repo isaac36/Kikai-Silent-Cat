@@ -57,14 +57,16 @@ if(instance_exists(obj_template))and(global.setinhas==-1){visible = true;}else{v
 if(lado=="esquerda")and(image_xscale>0){image_xscale=-image_xscale};
 if(tempo<=0)instance_destroy();
 
-target=instance_nearest(x,y,target_padrao);
 
+if(instance_exists(target_padrao)){
+target=instance_nearest(x,y,target_padrao);
+}else{target=-1}
 
 x = dono.x+posX;
 y = dono.y+posY;
 
 
-if(target.estado!=target.estadomorto)and(place_meeting(x,y,target))and(bateu==0)and(target.invuneravel==false)and(player!=target.player){
+if(target!=-1)and(place_meeting(x,y,target))and(target.estado!=target.estadomorto)and(bateu==0)and(target.invuneravel==false)and(player!=target.player){
 
 audio_play_sound(punch,0,0);
 
