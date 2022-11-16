@@ -3,7 +3,9 @@
 function gato_assassinato(){
 	sprite_index=spr_gato_dash;
 	
-
+	proporcao = sprite_get_number(sprite_index)/30;
+	
+	image_index = floor((proporcao*cont_animacao));
 	
 	
 	if(alvo.x-25>x){velocidadeX=5;lado="direita";}

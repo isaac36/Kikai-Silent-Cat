@@ -8,3 +8,32 @@ depth = -99999;
 image_xscale = 20;
 image_yscale = 20;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Save_sprite_index = sprite_index;
+	Save_image_index = image_index;
+	salvei=false;

@@ -31,7 +31,7 @@ draw_sprite(spr_botao,floor(frequencia_desenho/10),x,y-120);
 
 }
 
-if(keyboard_check_pressed(vk_space)){if(debug==true){debug=false;} else{debug=true;}}
+//if(keyboard_check_pressed(ord("B"))){debug=!debug}
 
 image_blend=croma;
 //if(estado==dash){image_blend=make_color_rgb(150,150,150);};
@@ -51,13 +51,12 @@ draw_text(x-50,y-120,"alvo: "+string((alvo)));
 
 draw_text(x-50,y-100,"distanciaDoAlvo: "+string(distanciaDoAlvo));
 */
-draw_text(x-50,y-80,"apanhou: "+string(apanhou));
+draw_text(x-50,y-140,"alarm2: "+string((alarm[2])));
+draw_text(x-50,y-120,"alarm1: "+string((alarm[1])));
+draw_text(x-50,y-100,"alarm0: "+string((alarm[0])));
+draw_text(x-50,y-80,"image_index: "+string((image_index)));
 
 draw_text(x-50,y-60,"x: "+string(x));
 draw_text(x-50,y-40,"y: "+string(y));
 
-
-if(instance_exists(ultimosanguehit)){
-draw_sprite(ultimosanguehit.sprite_index,8,x,y-100);
-}
 }

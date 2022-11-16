@@ -1,9 +1,9 @@
 
 event_inherited();
 
-frequencia_desenho = 0;
+if(!instance_exists(obj_PAUSE)){instance_create(x,y,obj_PAUSE)};
 
-if(!instance_exists(loop_controlador)){instance_create(x,y,loop_controlador);}
+frequencia_desenho = 0;
 
 cont_gameover=0;
 

@@ -60,4 +60,6 @@ draw_text_ext_color(camera_get_view_width(view_camera[0]),320,"GAME OVER",0,1000
 
 }
 
+
+if(cont_gameover==1900)and(keyboard_check_released(vk_anykey)){game_restart();}
 }

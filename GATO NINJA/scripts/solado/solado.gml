@@ -8,7 +8,6 @@ function solado() {
 	proporcao = sprite_get_number(sprite_index)/soladotempo;
 	
 	image_index = floor((proporcao*cont_animacao));
-	
 
 
 
@@ -35,12 +34,12 @@ function solado() {
 
 	if cont_animacao>=soladotempo {
 
-	cont_animacao=0;
 	
-	if(chao)and(img_parado==spr_gato_parado){estado=parado;apanhou = true;alarm[11]=10;}else{estado=caindo;apanhou = true;alarm[11]=5;}
+	
+	if(img_parado==spr_gato_parado){estado=parado;apanhou = true;alarm[11]=10;sprite_index=img_parado;cont_animacao=0;}
 
 
-	if(chao)and(img_parado!=spr_gato_parado){estado=parado;}else{estado=caindo;}
+	if(chao)and(img_parado!=spr_gato_parado){estado=parado;cont_animacao=0;}else{estado=caindo;cont_animacao=0;}
 	
 	
 
@@ -52,4 +51,6 @@ function solado() {
 velxReal=false;
 
 if(image_index==5)and(img_parado==spr_gato_parado)and(vida<=0){estado=estadomorto;cont_animacao=0;}
+
+
 }

@@ -1,8 +1,57 @@
+
+if(global.pause==true){
+	
+	if(salvei==false){
+	
+	Save_sprite_index = sprite_index;
+	Save_image_index = image_index;
+	SaveAlarm0 = alarm[0];
+	SaveAlarm1 = alarm[1];
+	SaveAlarm2 = alarm[2];
+	SaveAlarm3 = alarm[3];
+	SaveAlarm4 = alarm[4];
+	SaveAlarm5 = alarm[5];
+	SaveAlarm6 = alarm[6];
+	SaveAlarm7 = alarm[7];
+	SaveAlarm8 = alarm[8];
+	SaveAlarm9 = alarm[9];
+	SaveAlarm10 = alarm[10];
+	SaveAlarm11 = alarm[11];
+	
+	salvei=true;
+	
+	}
+	
+	sprite_index = Save_sprite_index;
+	image_index = Save_image_index;
+    alarm[0] = SaveAlarm0;
+	alarm[1] = SaveAlarm1;
+	alarm[2] = SaveAlarm2;
+	alarm[3] = SaveAlarm3;
+	alarm[4] = SaveAlarm4;
+	alarm[5] = SaveAlarm5;
+	alarm[6] = SaveAlarm6;
+	alarm[7] = SaveAlarm7;
+	alarm[8] = SaveAlarm8;
+	alarm[9] = SaveAlarm9;
+	alarm[10] = SaveAlarm10;
+	alarm[11] = SaveAlarm11;
+
+	
+	exit;
+
+
+}
+
+
+salvei=false;
+
 // CRIACOES DE VARIAVEIS-ATALHOS PARA OS BOTOES
 mask_index = mascara;
 
+if(!instance_exists(obj_PAUSE)){instance_create(x,y,obj_PAUSE)};
 
-if(keyboard_check_pressed(vk_escape)){game_restart();}
+//if(keyboard_check_pressed(vk_escape)){game_restart();}
 
 if(keyboard_check(BOTAO_ESQUERDA_SETUP)){BOTAO_ESQUERDA = true;}else{BOTAO_ESQUERDA = false;}
 if(keyboard_check(BOTAO_DIREITA_SETUP)){BOTAO_DIREITA = true;}else {BOTAO_DIREITA = false;}

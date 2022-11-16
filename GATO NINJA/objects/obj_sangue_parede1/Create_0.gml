@@ -8,7 +8,7 @@ image_alpha=0.8;
 
 image_angle = irandom_range(0,359);
 
-depth=10;
+depth=100;
 
 spritevetor[0] = spr_sangue_parede1;
 spritevetor[1] = spr_sangue_parede2;

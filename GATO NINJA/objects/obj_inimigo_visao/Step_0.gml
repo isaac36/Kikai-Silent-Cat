@@ -2,6 +2,7 @@
 // Você pode escrever seu código neste editor
 if(instance_exists(dono)){
 
+
 if(a=0){
 tempo=(obj_gato.x-x)/velx;
 velocidadeY = (target-y)/tempo;
