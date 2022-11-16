@@ -98,7 +98,7 @@ BOTAO_PULO_SETUP = ord("J");
 BOTAO_DASH_SETUP = ord("I");
 BOTAO_ATAQUE_SETUP = ord("U");
 BOTAO_ATAQUE2_SETUP = ord("K");
-BOTAO_ESPECIAL_SETUP = ord("Y");
+//BOTAO_ESPECIAL_SETUP = ord("Y");
 
 
 

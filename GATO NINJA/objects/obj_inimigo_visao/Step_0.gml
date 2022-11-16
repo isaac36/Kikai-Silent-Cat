@@ -39,8 +39,11 @@ image_xscale = 1;
 
 }
 
-if(place_meeting(x,y,obj_gato))and(dono.estado!="luta"){dono.estado=inimigo_HEY;dono.modo="luta";};
+if(instance_exists(obj_gato)){vargato=instance_nearest(x,y,obj_gato)}else{vargato=-1}
 
+if(vargato!=-1){
+if(place_meeting(x,y,vargato))and(vargato.estado!=gato_escondido)and(dono.estado!="luta"){dono.estado=inimigo_HEY;dono.modo="luta";};
+}
 
 
 

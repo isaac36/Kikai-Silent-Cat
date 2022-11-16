@@ -14,7 +14,7 @@ portafechada = -1;
 	morteG = 255;
 	morteB = 255;
 
-depth = 1;
+depth = 2;
 player = 2;
 
 img_parado = spr_inimigo_parado;

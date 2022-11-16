@@ -55,6 +55,7 @@ function andando() {
 	if(BOTAO_ATAQUE)and(combo==1)and(chao){cont_animacao = 0;estado=leve2}
 	if(BOTAO_ATAQUE)and(combo==2)and(chao){cont_animacao = 0;estado=leve3}
 	if(BOTAO_ATAQUE)and(combo==3)and(chao){cont_animacao = 0;estado=leve4}
+	if(place_meeting(x,y,obj_esconder))and(BOTAO_ATAQUE2)and(img_parado==spr_gato_parado){estado=gato_escondido;cont_animacao=0;}
 
 /*
 	if(BOTAO_ATAQUE)and(BOTAO_BAIXO)and(!BOTAO_CIMA)and(chao){cont_animacao = 0;estado=leve_baixo}

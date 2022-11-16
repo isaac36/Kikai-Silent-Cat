@@ -7,12 +7,12 @@ draw_self();
 if(instance_exists(obj_porta)){porta=instance_nearest(x,y,obj_porta)}else{porta="naotem"};
 
 
-frequencia_desenho = frequencia_desenho+1;
+frequencia_desenho = frequencia_desenho+0.5;
 if(frequencia_desenho>20){frequencia_desenho=0}
 	
 if(porta!="naotem")and(place_meeting(x,y,porta))and(porta.pode_abrir==true){
 
-draw_sprite(spr_botao,floor(frequencia_desenho/10),x,y-120);
+draw_sprite(spr_botao,floor(frequencia_desenho/10),x,y-80);
 
 }
 
@@ -25,7 +25,7 @@ distanciaDoAlvo = distance_to_object(alvo);
 if(distanciaDoAlvo<=distanciaExecucao)and(place_meeting(x,y,obj_oportunidade))and(estado!=gato_assassinato)and(estado!=gato_hitkill){
 
 	
-draw_sprite(spr_botao,floor(frequencia_desenho/10),x,y-120);
+draw_sprite(spr_botao,floor(frequencia_desenho/10),x,y-80);
 
 
 

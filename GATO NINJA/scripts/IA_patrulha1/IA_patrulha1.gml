@@ -2,11 +2,28 @@
 function IA_patrulha1(){
 	
 	img_andando = spr_inimigo_andando;
+	
+if(instance_exists(obj_gato)){vargato = instance_nearest(x,y,obj_gato)}else{vargato=-1}
+
+
+
 
 if(place_meeting(x+abs(velocidadeX),y,obj_wall))or(place_meeting(x+abs(velocidadeX),y,obj_patrulhavolta)){patrulhadir=-1;}
 if(place_meeting(x-abs(velocidadeX),y,obj_wall))or(place_meeting(x-abs(velocidadeX),y,obj_patrulhavolta)){patrulhadir=1;}
 
-if(place_meeting(x+20*patrulhadir,y,obj_gato)){modo="luta";estado=inimigo_HEY;cont_animacao=0};
+
+
+
+
+
+if(vargato!=-1){
+if(place_meeting(x+20*patrulhadir,y,vargato))and(vargato.estado!=gato_escondido){modo="luta";estado=inimigo_HEY;cont_animacao=0};
+}
+
+
+
+
+
 
 
 if(patrulhadir==1){BOTAO_DIREITA=true;}else

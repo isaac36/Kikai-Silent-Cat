@@ -2,11 +2,13 @@
 // Você pode escrever seu código neste editor
 
 if(global.pause){
-draw_set_halign(fa_middle);
+
 
 
 
 if(modo == "tela1"){
+draw_set_halign(fa_middle);
+
 
 draw_sprite_ext(spr_tela_escura,0,
 camera_get_view_width(view_camera[0]),

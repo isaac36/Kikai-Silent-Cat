@@ -30,3 +30,4 @@ draw_sprite_ext(spr_seta,floor(frequencia_desenho/5),x,y-120-(frequencia_balanco
 tendencia = 0; 
 
 }
+
