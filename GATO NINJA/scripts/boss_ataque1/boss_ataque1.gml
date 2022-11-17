@@ -32,6 +32,9 @@ function boss_ataque1(){
 	target.image_yscale = 2;
 	target.image_xscale = 2;
 	target.vida = 10;
+	target.sangue = true;
+	audio_play_sound(sfx_hitAr,0,0);
+	target.sangue = true;
 	}
 	
 	if(place_meeting(x+velocidadeX,y,obj_gato)){velocidadeX=0;}

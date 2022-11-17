@@ -10,13 +10,15 @@ function boss_agarrao2(){
 	
 		image_index = floor((proporcao*cont_animacao));
 		
-		if(cont_animacao%10==0)obj_gato.vida=obj_gato.vida-1;
+		obj_gato.vida=obj_gato.vida-(1/6);
+		
+		if(cont_animacao%10==0){instance_create(x,y,obj_screenshake)}
 		
 	
 	
 	
 	cont_animacao++;
 	
-	if(cont_animacao>=250){estado=boss_agarrao3;cont_animacao=0;modo="luta"};
+	if(cont_animacao>=150){estado=boss_agarrao3;cont_animacao=0;modo="luta"};
 
 }

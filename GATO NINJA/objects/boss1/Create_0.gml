@@ -8,6 +8,7 @@
 // Inherit the parent event
 event_inherited();
 
+atacou = false;
 cont_boss = 0;
 soladotempo = 20;
 mascara = spr_gato_colisao_mask;
@@ -22,6 +23,7 @@ leve = boss_ataque1;
 velocidadeAgarrao = 10;
 
 img_parado = spr_boss_parado;
+img_solado = spr_boss_parado;
 img_dash = spr_boss_dash;
 img_andando= spr_boss_andando;
 img_impulso = spr_boss_impulso;

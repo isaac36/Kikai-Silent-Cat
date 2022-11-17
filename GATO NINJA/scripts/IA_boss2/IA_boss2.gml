@@ -33,8 +33,8 @@ if(instance_exists(obj_gato))and(estado!=solado)and(estado!=dash){
 	
 	
 	
-	if((place_meeting(x+velocidadeX,y,obj_wall))or(place_meeting(x+velocidadeX,y,obj_patrulhavolta)))and(estado!=boss_ataque2){
-	
+	if((place_meeting(x+velocidadeX,y,obj_wall))or(place_meeting(x+velocidadeX,y,obj_patrulhavolta)))and(!atacou){
+	atacou=true;
 	
 	
 

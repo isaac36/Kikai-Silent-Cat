@@ -25,7 +25,7 @@ function boss_agarrao3(){
 	
 	cont_animacao++;
 	
-	if(cont_animacao>=25){estado=parado;cont_animacao=0;modo="luta";if(lado=="direita"){lado="esquerda"}else{lado="direita"};
+	if(cont_animacao>=25){atacou=false;estado=parado;cont_animacao=0;modo="luta";if(lado=="direita"){lado="esquerda"}else{lado="direita"};
 		
 		
 		

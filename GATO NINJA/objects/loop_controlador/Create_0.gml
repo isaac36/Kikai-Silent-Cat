@@ -9,7 +9,7 @@ audio_sound_gain(loop3,0,0);
 audio_sound_gain(loop4,0,0);
 
 
-modoinimigo = false;
+modoinimigo = 0;
 cont_luta = 0;
 cont_furtivo = 0;
 volume=0;

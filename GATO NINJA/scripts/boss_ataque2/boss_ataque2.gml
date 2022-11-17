@@ -22,6 +22,6 @@ if(lado=="direita"){velocidadeAgarrao=velocidadeAgarrao}else{velocidadeAgarrao=-
 	
 	if(distance_to_object(obj_gato)<80){estado=boss_agarrao;cont_animacao=0;};
 	
-	if(cont_animacao>100){estado=parado;modo="luta"}
+	if(cont_animacao>100){estado=parado;modo="luta";atacou=false;}
 
 }

@@ -35,8 +35,8 @@ function boss_agarrao(){
 	
 	if(cont_animacao<25)and(place_meeting(x,y,obj_gato))and(!obj_gato.invuneravel){estado=boss_agarrao2;cont_animacao=0;}
 	
-	if(cont_animacao>=100){estado=andando;cont_animacao=0;modo="luta"};
+	if(cont_animacao>=100){atacou=false;estado=andando;cont_animacao=0;modo="luta"};
 	
-	if(place_meeting(x,y,hitbox_gato))and(cont_animacao>25){estado=solado;};
+	if(place_meeting(x,y,hitbox_gato))and(cont_animacao>25){atacou=false;estado=solado;cont_animacao=0;};
 
 }

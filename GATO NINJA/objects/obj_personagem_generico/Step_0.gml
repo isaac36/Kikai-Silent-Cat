@@ -43,7 +43,7 @@ if(global.pause==true){
 
 }
 
-if(keyboard_check_pressed(vk_escape))room_restart(); //TIRE ISSO
+if(keyboard_check_pressed(vk_escape)){cont_gameover=0;estado=parado;vida=100;room_restart();} //TIRE ISSO DEPOIS
 
 
 salvei=false;

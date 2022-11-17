@@ -8,6 +8,8 @@
 
 // Inherit the parent event
 event_inherited();
+
+//draw_text(x,y-80,atacou);
 /*
 draw_set_color(c_white);
 draw_set_font(font_padrao);

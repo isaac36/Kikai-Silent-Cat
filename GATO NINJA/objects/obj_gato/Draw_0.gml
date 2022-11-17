@@ -4,7 +4,9 @@
 draw_self();
 
 
-if(instance_exists(obj_porta)){porta=instance_nearest(x,y,obj_porta)}else{porta="naotem"};
+if(instance_exists(obj_porta)){
+	
+	porta=instance_nearest(x,y,obj_porta)}else{porta="naotem"};
 
 
 frequencia_desenho = frequencia_desenho+0.5;
@@ -30,6 +32,8 @@ draw_sprite(spr_botao,floor(frequencia_desenho/10),x,y-80);
 
 
 }
+
+//draw_text(x,y,instance_number(loop_controlador))
 
 //if(keyboard_check_pressed(ord("B"))){debug=!debug}
 

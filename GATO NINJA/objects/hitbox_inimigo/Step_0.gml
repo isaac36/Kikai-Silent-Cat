@@ -101,6 +101,14 @@ targetEfeito.image_angle = efeitoAngulo;
 
 
 bateu=1;
+
+if(sangue==true){
+dono.ultimosanguehit = instance_create(x+posX*2,y+posY-(target.sprite_height/2),efeitoSangue);
+dono.ultimosanguehit.image_xscale = veldir;
+dono.ultimosangueparede = instance_create(x+posX*2,y+posY-(target.sprite_height/2),obj_sangue_parede1);
+
+}
+
 }
 
 tempo--;
