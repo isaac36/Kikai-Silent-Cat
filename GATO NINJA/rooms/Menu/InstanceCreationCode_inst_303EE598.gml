@@ -1,0 +1,1 @@
+if instance_number(setupGATO)>1{instance_destroy()};

@@ -1,6 +1,8 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+if(!instance_exists(loop_controlador)){instance_create(x,y,loop_controlador)}
+
 if(room==Menu){limiteMenu=2};
 if(room==room_Creditos){limiteMenu=0};
 

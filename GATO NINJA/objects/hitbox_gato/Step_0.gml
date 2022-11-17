@@ -72,14 +72,14 @@ audio_play_sound(punch,0,0);
 
 instance_create(x,y,obj_screenshake);
 if(descer){target.descer=true;target.alarm[2]=5;}
-target.cont_animacao=0;
+if(target.IA_luta!=IA_boss1)target.cont_animacao=0;
 target.soladovelx=velx;
 target.soladovely=vely;
 target.veldir=veldir;
 target.soladotempo = soladotempo;
 if(velxReal!=false){target.velocidadeX=velxReal;}
 target.velocidadeRotacao=velocidadeRotacao;
-if(target.vida>0)target.estado=estado;
+if(target.vida>0)and(target.IA_luta!=IA_boss1) target.estado=estado;
 target.vida -= vida;
 audio_play_sound(somHit,0,0);
 

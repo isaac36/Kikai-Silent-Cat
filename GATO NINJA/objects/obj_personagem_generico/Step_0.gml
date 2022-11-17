@@ -43,13 +43,15 @@ if(global.pause==true){
 
 }
 
+if(keyboard_check_pressed(vk_escape))room_restart(); //TIRE ISSO
+
 
 salvei=false;
 
 // CRIACOES DE VARIAVEIS-ATALHOS PARA OS BOTOES
 mask_index = mascara;
 
-if(!instance_exists(obj_PAUSE)){instance_create(x,y,obj_PAUSE)};
+if(!instance_exists(setupGATO)){instance_create(x,y,setupGATO)}
 
 //if(keyboard_check_pressed(vk_escape)){game_restart();}
 
@@ -107,10 +109,7 @@ invuneravel=false;
 script_execute(estado);
 if(img_parado=spr_gato_parado){
 	
-	
-
-	
-if(place_meeting(x,y,obj_oportunidade))and(img_parado==spr_gato_parado){alvo=instance_nearest(x,y,obj_oportunidade).dono;}else{alvo=-1;}
+if(place_meeting(x,y,obj_oportunidade))and(img_parado==spr_gato_parado){assassinatoVida=instance_nearest(x,y,obj_oportunidade).vida;alvo=instance_nearest(x,y,obj_oportunidade).dono;}else{alvo=-1;}
 if(abs(distanciaDoAlvo)<=distanciaExecucao)and(alvo!=-1)and(BOTAO_ATAQUE2)and(estado!=gato_hitkill)and(assassinatoCD==false){ultimoalvo=alvo;estado=gato_assassinato;cont_animacao=0;descer=true;alarm[2]=20;assassinatoCD=true;alarm[10]=40;distanciaExecucao = 9999990;}
 
 }
@@ -136,8 +135,6 @@ image_angle = 0;
 
 if(vidamax<vida)vidamax = vida;
 if(vida<=0)and(estado!=estadomorto)and(estado!=solado)and(estado!=solado2)and(estado!=solado3){cont_animacao=0;image_angle = 0; estado=estadomorto};
-
-
 
 
 

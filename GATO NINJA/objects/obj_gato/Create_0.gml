@@ -140,7 +140,7 @@ leve4 = gato_ataque;
 leve_baixo = gato_ataque;
 leve_cima = gato_ataque;
 
-leve_ar = gato_ataque;
+leve_ar = gato_ataque_ar;
 leve_baixo_ar = gato_ataque;
 leve_cima_ar = gato_ataque;
 

@@ -17,9 +17,15 @@ audio_sound_gain(loop1,1-volume,0);
 
 }else{audio_sound_gain(loop2,0,0);volume=0;}
 
-if(modoinimigo=="luta"){
+if(modoinimigo==1){
 cont_luta++;
-if(cont_luta==10){audio_sound_gain(loop1,0,500);audio_sound_gain(loop3,1,500);}
+if(cont_luta==10){audio_sound_gain(loop1,0,500);audio_sound_gain(loop3,1,500);audio_sound_gain(loop4,0,500);}
+cont_furtivo = 0;
+
+}else
+	if(modoinimigo==2){
+cont_luta++;
+if(cont_luta==10){audio_sound_gain(loop1,0,500);audio_sound_gain(loop4,1,500);audio_sound_gain(loop3,1,500);}
 cont_furtivo = 0;
 
 }else{

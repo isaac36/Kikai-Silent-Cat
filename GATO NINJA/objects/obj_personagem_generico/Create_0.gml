@@ -7,6 +7,7 @@ contIA = 0;
 paciencia =0;
 Hey_aviso = false;
 apanhou = false;
+assassinatoVida=false;
 
 assassinatoCD=false;
 alvo = -1;

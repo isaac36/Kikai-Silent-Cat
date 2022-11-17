@@ -21,7 +21,7 @@ function gato_ataque(){
 	target.posX = 32*dir;
 	target.posY = 0;
 	target.soladotempo = 20;
-	target.vida = 20;
+	target.vida = 20;//apague isso
 	target.image_xscale = target.image_xscale*2;
 	target.image_yscale = target.image_yscale*2;
 	target.efeito = target.efeitoCorte;

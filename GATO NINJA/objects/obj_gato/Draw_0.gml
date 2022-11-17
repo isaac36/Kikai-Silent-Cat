@@ -33,7 +33,7 @@ draw_sprite(spr_botao,floor(frequencia_desenho/10),x,y-80);
 
 //if(keyboard_check_pressed(ord("B"))){debug=!debug}
 
-image_blend=croma;
+//image_blend=croma;
 //if(estado==dash){image_blend=make_color_rgb(150,150,150);};
 
 
@@ -41,7 +41,7 @@ image_blend=croma;
 
 
 
-if(debug==true){
+
 /*	
 draw_set_color(c_white);
 
@@ -50,13 +50,17 @@ draw_text(x-50,y-140,"distanciaExecucao: "+string(distanciaExecucao));
 draw_text(x-50,y-120,"alvo: "+string((alvo)));
 
 draw_text(x-50,y-100,"distanciaDoAlvo: "+string(distanciaDoAlvo));
-*/
+
 draw_text(x-50,y-140,"alarm2: "+string((alarm[2])));
 draw_text(x-50,y-120,"alarm1: "+string((alarm[1])));
 draw_text(x-50,y-100,"alarm0: "+string((alarm[0])));
 draw_text(x-50,y-80,"image_index: "+string((image_index)));
 
-draw_text(x-50,y-60,"x: "+string(x));
-draw_text(x-50,y-40,"y: "+string(y));
 
+draw_text(x-50,y-60,"x: "+string(x));
+*/
+/*
+if(instance_exists(loop_controlador)){
+draw_text(x-50,y-40,"loop_controlador.modoinimigo: "+string(loop_controlador.modoinimigo));
 }
+

@@ -2,7 +2,7 @@
 // Você pode escrever seu código neste editor
 
 if(cont_dialogo<comeco){cont_dialogo=comeco;}
-if(cont_dialogo>fim){global.pause=false;instance_destroy()}
+//if(cont_dialogo>fim){global.pause=false;instance_destroy();obj_gato.velocidadeX=0;velocidadeY=0;obj_gato.estado=parado;exit}
 
 if(place_meeting(x,y,obj_gato)){comecou=true};
 
@@ -35,4 +35,4 @@ script_execute(animacao[cont_dialogo]);
 
 
 
-if(cont_dialogo>fim){global.pause=false;instance_destroy()}
+if(cont_dialogo>fim){global.pause=false;instance_destroy();obj_gato.velocidadeX=0;velocidadeY=0;obj_gato.estado=parado;exit}

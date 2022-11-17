@@ -5,3 +5,6 @@ dono=-1;
 depth =10;
 
 distanciaExecucao = 100;
+
+tempo=false;
+vida=false;

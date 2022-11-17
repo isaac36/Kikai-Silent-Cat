@@ -8,7 +8,10 @@ function IA_luta1(){
 	img_andando = spr_inimigo_correndo;
 	img_parado = spr_inimigo_parado2;
 
-	loop_controlador.modoinimigo = "luta";
+if(instance_exists(loop_controlador)){
+		loop_controlador.modoinimigo = 1;
+}
+
 
 if(instance_exists(obj_gato))and(estado!=solado)and(estado!=dash){
 	

@@ -28,8 +28,13 @@ function gato_hitkill(){
 	target.somHit = sfx_inimigo_hitado2;
 	
 	//Hitkill
-	if(instance_exists(obj_inimigo)){
+	if(instance_exists(obj_inimigo))and(assassinatoVida==false){
 	target.vida = instance_nearest(x,y,obj_inimigo).vidamax;
+	}else{
+	if(instance_exists(obj_inimigo))and(assassinatoVida!=false){
+	target.vida = assassinatoVida;
+	}
+	
 	}
 	
 	}
