@@ -5,8 +5,7 @@ function gato_ataque(){
 	sprite_index = spr_gato_ataque1;
 	
 
-    
-	
+ 
 	if(cont_animacao==0)velocidadeX=velocidadeX+(dir*6);
 	if(velocidadeX>8){velocidadeX=8}
 	if(velocidadeX<-8){velocidadeX=-8}

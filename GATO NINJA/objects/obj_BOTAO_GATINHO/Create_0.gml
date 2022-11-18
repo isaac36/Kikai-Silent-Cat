@@ -4,4 +4,5 @@
 room_alvo = room;
 
 
-
+movimento_pendular = 0;
+velocidade_pendular = 1;

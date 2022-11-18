@@ -1,6 +1,47 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+if(chavefinal){
 
+draw_sprite_ext(spr_chavefinal,0,
+
+620,
+
+50,
+
+1,1,0,c_white,1
+
+);
+
+}
+
+
+if(chavea>0){
+
+draw_sprite_ext(spr_cartao,0,
+
+560,
+
+50,
+
+1,1,0,c_white,1
+
+);
+
+}
+
+if(chaveb>0){
+
+draw_sprite_ext(spr_cartao2,0,
+
+600,
+
+50,
+
+1,1,0,c_white,1
+
+);
+
+}
 
 for(i=0;i<vidamax;i++){
 	

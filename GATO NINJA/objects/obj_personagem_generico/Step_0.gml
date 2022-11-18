@@ -1,4 +1,6 @@
-if(room==Menu){instance_destroy();}
+if(room==Menu)or(room==Intro){instance_destroy();}
+
+
 if(global.pause==true){
 	
 	if(salvei==false){
@@ -43,15 +45,16 @@ if(global.pause==true){
 
 }
 
-if(keyboard_check_pressed(vk_escape)){cont_gameover=0;estado=parado;vida=100;room_restart();} //TIRE ISSO DEPOIS
+//if(keyboard_check_pressed(vk_escape)){cont_gameover=0;estado=parado;vida=100;room_restart();} //TIRE ISSO DEPOIS
 
+if(img_parado=spr_gato_parado)depth = 0;
+
+if(place_meeting(x,y,obj_shock)){instance_create(x,y,obj_screenshake);audio_play_sound(sfx_hitAr,0,false);image_blend=make_color_rgb(irandom_range(100,255),irandom_range(100,255),irandom_range(100,255));vida=vida-0.5;}else{image_blend=c_white}
 
 salvei=false;
 
 // CRIACOES DE VARIAVEIS-ATALHOS PARA OS BOTOES
 mask_index = mascara;
-
-if(!instance_exists(setupGATO)){instance_create(x,y,setupGATO)}
 
 //if(keyboard_check_pressed(vk_escape)){game_restart();}
 

@@ -52,5 +52,4 @@ velxReal=false;
 
 if(image_index==5)and(img_parado==spr_gato_parado)and(vida<=0){estado=estadomorto;cont_animacao=0;}
 
-
 }

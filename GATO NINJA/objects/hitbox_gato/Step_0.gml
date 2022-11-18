@@ -79,7 +79,7 @@ target.veldir=veldir;
 target.soladotempo = soladotempo;
 if(velxReal!=false){target.velocidadeX=velxReal;}
 target.velocidadeRotacao=velocidadeRotacao;
-if(target.vida>0)and(target.IA_luta!=IA_boss1) target.estado=estado;
+if(target.vida>0)and(target.IA_luta!=IA_boss1)target.estado=estado;
 target.vida -= vida;
 audio_play_sound(somHit,0,0);
 
@@ -100,17 +100,21 @@ targetEfeito.image_angle = efeitoAngulo;
 }
 
 
-if(sangue==true){
+if(sangue==true){//and(!((room==Room5))){
 dono.ultimosanguehit = instance_create(x,y-sprite_height/2,efeitoSangue);
 dono.ultimosanguehit.image_xscale = veldir;
 dono.ultimosangueparede = instance_create(x,y-(sprite_height/2),obj_sangue_parede1);
 
 }
 
-if(telavermelha == true){
+if(telavermelha == true){//and(!((room==Room5))){
 telavermelha = instance_create(x,y,obj_tela_vermela);
 telavermelha.dono = dono;
+
+
+//if((!((room==Room5)))){
 dono.ultimosanguehit.image_blend = make_color_rgb(0,0,0);
+//}
 }
 
 

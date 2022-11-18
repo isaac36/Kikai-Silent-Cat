@@ -8,15 +8,16 @@
 // Inherit the parent event
 event_inherited();
 
+dropou=false;
 atacou = false;
 cont_boss = 0;
 soladotempo = 20;
 mascara = spr_gato_colisao_mask;
 IA_luta = IA_boss1;
 IA_patrulha = IA_boss2;
-modo="patrulha";
+modo="luta";
 vida=1200;
-estadomorto=inimigo1_morto;
+estadomorto=bossmorto;
 velocidadePersonagem = 1;
 portafechada = -1;
 leve = boss_ataque1;
@@ -34,3 +35,5 @@ img_agarrao1 = spr_boss_agarrao;
 img_agarrao2 = spr_boss_agarrou;
 img_agarrao3 = spr_boss_agarrou2;
 img_morto = spr_boss_morto;
+escalaX=1;
+escalaY=1;

@@ -14,7 +14,7 @@ function gato_ataque2(){
 
 
 	if(cont_animacao==8){target=instance_create(x+(32*dir),y,hitbox_gato);
-	target.velxReal=(6*dir);
+	target.velxReal=(4*dir);
 	target.vely=0;
 	target.veldir=dir;
 	target.dono = instance_nearest(x,y,obj_personagem_generico);

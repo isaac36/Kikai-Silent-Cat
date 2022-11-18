@@ -8,8 +8,7 @@ function IA_boss2(){
 
 velocidadePersonagem=6;
 
-	if((instance_exists(obj_porta))and((distance_to_object(obj_gato))<300)){portafechada=instance_nearest(x,y,obj_porta);portafechada.pode_abrir=false;}
-	
+		if(instance_exists(obj_porta)){obj_porta.pode_abrir=false;}
 	
 	
 

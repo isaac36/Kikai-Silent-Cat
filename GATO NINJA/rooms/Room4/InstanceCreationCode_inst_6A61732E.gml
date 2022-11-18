@@ -1,0 +1,2 @@
+modo="patrulha";
+lado= "esquerda";

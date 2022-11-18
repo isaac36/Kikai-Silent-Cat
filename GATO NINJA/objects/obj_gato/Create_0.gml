@@ -1,6 +1,9 @@
 
 event_inherited();
 
+chavea=0;
+chaveb=0;
+
 if(!instance_exists(obj_PAUSE)){instance_create(x,y,obj_PAUSE)};
 
 frequencia_desenho = 0;
@@ -25,7 +28,7 @@ ultimosanguehit = -1;
 
 antinerciaBase = 0.6;
 depth = 0;
-
+chavefinal =false;
 
 
 img_parado = spr_gato_parado;

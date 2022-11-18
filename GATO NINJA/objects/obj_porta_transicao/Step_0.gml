@@ -7,6 +7,7 @@ image_index=cont;
 cont=cont+contvel;
 	
 	
-
+if(instance_exists(obj_gato)){
 x = obj_gato.x;
 y = obj_gato.y;
+}

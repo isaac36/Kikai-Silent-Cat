@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_BOTAO_GATINHO",
   "spriteId": {
-    "name": "spr_BOTAO_GATINHO",
-    "path": "sprites/spr_BOTAO_GATINHO/spr_BOTAO_GATINHO.yy",
+    "name": "spr_faca",
+    "path": "sprites/spr_faca/spr_faca.yy",
   },
   "solid": false,
   "visible": true,

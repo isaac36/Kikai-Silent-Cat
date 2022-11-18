@@ -8,10 +8,7 @@ if(instance_exists(obj_gato)){vargato = instance_nearest(x,y,obj_gato)}else{varg
 
 
 
-if(place_meeting(x+abs(velocidadeX),y,obj_wall))or(place_meeting(x+abs(velocidadeX),y,obj_patrulhavolta)){patrulhadir=-1;}
-if(place_meeting(x-abs(velocidadeX),y,obj_wall))or(place_meeting(x-abs(velocidadeX),y,obj_patrulhavolta)){patrulhadir=1;}
-
-
+if(place_meeting(x+patrulhadir*10,y,obj_wall))or(place_meeting(x+patrulhadir*10,y,obj_patrulhavolta)){patrulhadir=-patrulhadir};
 
 
 
