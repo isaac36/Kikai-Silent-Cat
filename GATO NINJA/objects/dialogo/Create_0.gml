@@ -17,7 +17,6 @@ animacao[0] = cena1;//false se nao tem
 
 
 
-
 movimento_pendular = 0;
 velocidade_pendular = 1;
 

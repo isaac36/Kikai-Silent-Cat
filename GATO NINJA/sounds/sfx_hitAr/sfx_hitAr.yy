@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sfx_hitAr.wav",
-  "duration": 0.307007,
+  "duration": 0.400417,
   "parent": {
     "name": "Sons SilentCat",
     "path": "folders/Sons/Sons SilentCat.yy",

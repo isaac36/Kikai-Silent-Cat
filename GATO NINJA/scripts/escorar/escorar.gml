@@ -13,8 +13,12 @@ function escorar() {
 	}
 
 	
-if(cont_animacao==0){sprite_index=spr_gato_escorando;image_index=0;preparando=true;velocidadeY=0;tendencia=0;}
+if(cont_animacao==0){sprite_index=spr_gato_escorando;image_index=0;preparando=true;velocidadeY=0;tendencia=0;} 
+
+
 	
+
+
 
 	pulo = 1;
 	pode_dash_ar = true;
@@ -66,6 +70,10 @@ if(cont_animacao==0){sprite_index=spr_gato_escorando;image_index=0;preparando=tr
 	   if(velocidadeY==0){sprite_index=spr_gato_escalando_parado;}
 	   if(velocidadeY>0)and(velocidadeY<3){sprite_index=spr_gato_escorando;image_index=5;}
 	   if(velocidadeY>=3){sprite_index=spr_gato_escorando_caindo2;}
+	   
+	   
+	  
+	   
 	   
 	   
 	   

@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sound8",
-  "duration": 0.0,
+  "duration": 54.909374,
   "parent": {
     "name": "Sons",
     "path": "folders/Sons.yy",

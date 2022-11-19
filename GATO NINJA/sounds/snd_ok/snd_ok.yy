@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_ok",
-  "duration": 0.0,
+  "duration": 1.560771,
   "parent": {
     "name": "Sons",
     "path": "folders/Sons.yy",

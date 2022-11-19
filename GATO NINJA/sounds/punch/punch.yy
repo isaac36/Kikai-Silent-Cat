@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "punch",
-  "duration": 0.0,
+  "soundFile": "punch.wav",
+  "duration": 0.394729,
   "parent": {
     "name": "Sons",
     "path": "folders/Sons.yy",

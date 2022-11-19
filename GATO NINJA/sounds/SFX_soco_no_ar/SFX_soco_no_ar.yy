@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sfx_soco_no_ar",
-  "duration": 0.0,
+  "soundFile": "SFX_soco_no_ar.wav",
+  "duration": 0.400417,
   "parent": {
     "name": "Sons",
     "path": "folders/Sons.yy",

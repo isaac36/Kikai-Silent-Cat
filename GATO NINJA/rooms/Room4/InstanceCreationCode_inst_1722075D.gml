@@ -1,0 +1,1 @@
+escuridao=0.3;

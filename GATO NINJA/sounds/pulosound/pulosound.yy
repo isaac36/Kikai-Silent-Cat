@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "pulosound",
-  "duration": 0.0,
+  "soundFile": "pulosound.wav",
+  "duration": 0.333792,
   "parent": {
     "name": "Sons",
     "path": "folders/Sons.yy",
