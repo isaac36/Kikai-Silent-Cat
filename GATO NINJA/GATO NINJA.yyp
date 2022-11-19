@@ -342,6 +342,7 @@
     {"id":{"name":"spr_template_ar_especial_cima","path":"sprites/spr_template_ar_especial_cima/spr_template_ar_especial_cima.yy",},"order":7,},
     {"id":{"name":"action_another_room","path":"scripts/action_another_room/action_another_room.yy",},"order":1,},
     {"id":{"name":"spr_HEY","path":"sprites/spr_HEY/spr_HEY.yy",},"order":39,},
+    {"id":{"name":"sfx_telefone","path":"sounds/sfx_telefone/sfx_telefone.yy",},"order":8,},
     {"id":{"name":"spr_gato_ataque_ar","path":"sprites/spr_gato_ataque_ar/spr_gato_ataque_ar.yy",},"order":30,},
     {"id":{"name":"atendendo_telefone3","path":"scripts/atendendo_telefone3/atendendo_telefone3.yy",},"order":2,},
     {"id":{"name":"Sprite290","path":"sprites/Sprite290/Sprite290.yy",},"order":46,},
