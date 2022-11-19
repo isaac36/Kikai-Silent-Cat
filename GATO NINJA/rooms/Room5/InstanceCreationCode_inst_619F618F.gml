@@ -1,1 +1,1 @@
-escuridao=0.7;
+escuridao=0.65;

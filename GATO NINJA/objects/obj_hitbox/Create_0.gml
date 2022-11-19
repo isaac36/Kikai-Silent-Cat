@@ -62,7 +62,10 @@ somHit= vetorSom[irandom_range(0,1)];
 somHit=vetorSom[0];//USANDO SO UM SOM
 
 
-
+corte_som[0]=punch;
+corte_som[1]=sfx_inimigo_hitado1;
+corte_som[2]=sfx_inimigo_hitado2;
+corte_som=corte_som[irandom_range(0,2)];
 
 
 

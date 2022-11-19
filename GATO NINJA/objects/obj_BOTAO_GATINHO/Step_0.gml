@@ -1,6 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-if(instance_exists(setupGATO)){
+if(instance_exists(setupGATO))and(setupGATO.modo==1){
 
 movimento_pendular = movimento_pendular + velocidade_pendular;
 
@@ -39,3 +39,5 @@ setupGATO.apertou = true;instance_create(x,y,obj_transicao_menu);alarm[0]=50;}
 
 
 }
+
+if(instance_exists(setupGATO))and(setupGATO.modo==2){sprite_index= sem_mascara;}

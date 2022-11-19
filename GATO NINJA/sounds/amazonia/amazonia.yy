@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "amazonia",
-  "duration": 0.0,
+  "duration": 105.639175,
   "parent": {
     "name": "Sons",
     "path": "folders/Sons.yy",

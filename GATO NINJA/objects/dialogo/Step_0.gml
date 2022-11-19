@@ -1,6 +1,10 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+if(place_meeting(x,y,obj_gato))and(cont_dialogo==0){
+if(!audio_is_playing(sfx_telefone)){audio_play_sound(sfx_telefone,0,0)};
+}
+
 if(cont_dialogo<comeco){cont_dialogo=comeco;}
 //if(cont_dialogo>fim){global.pause=false;instance_destroy();obj_gato.velocidadeX=0;velocidadeY=0;obj_gato.estado=parado;exit}
 

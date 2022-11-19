@@ -2,9 +2,16 @@
 // Você pode escrever seu código neste editor
 window_set_fullscreen(true);
 
+modoleve=true;
+
+modo=2;
+cursormodoleve=false;
 cursorMenu = 0;
 limiteMenu = 2;
 apertou = false;
+
+pode_apertar=false;
+contmodo2=0;
 
 
 BOTAO_ESQUERDA_SETUP = ord("A");

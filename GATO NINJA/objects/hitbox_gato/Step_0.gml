@@ -68,7 +68,7 @@ y = dono.y+posY;
 
 if(target!=-1)and(place_meeting(x,y,target))and(target.estado!=target.estadomorto)and(bateu==0)and(target.invuneravel==false)and(player!=target.player){
 
-audio_play_sound(punch,0,0);
+
 
 instance_create(x,y,obj_screenshake);
 if(descer){target.descer=true;target.alarm[2]=5;}
@@ -81,8 +81,8 @@ if(velxReal!=false){target.velocidadeX=velxReal;}
 target.velocidadeRotacao=velocidadeRotacao;
 if(target.vida>0)and(target.IA_luta!=IA_boss1)target.estado=estado;
 target.vida -= vida;
-audio_play_sound(somHit,0,0);
 
+audio_play_sound(corte_som,0,0);
 
 //efeito
 targetEfeito = instance_create(

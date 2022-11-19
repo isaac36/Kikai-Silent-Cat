@@ -49,7 +49,7 @@ if(global.pause==true){
 
 if(img_parado=spr_gato_parado)depth = 0;
 
-if(place_meeting(x,y,obj_shock)){instance_create(x,y,obj_screenshake);audio_play_sound(sfx_hitAr,0,false);image_blend=make_color_rgb(irandom_range(100,255),irandom_range(100,255),irandom_range(100,255));vida=vida-0.5;}else{image_blend=c_white}
+if(place_meeting(x,y,obj_shock)){instance_create(x,y,obj_screenshake);image_blend=make_color_rgb(irandom_range(100,255),irandom_range(100,255),irandom_range(100,255));vida=vida-0.5;}else{image_blend=c_white}
 
 salvei=false;
 

@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "GATO NINJA",
   "resources": [
+    {"id":{"name":"madeira_batendo","path":"sounds/madeira_batendo/madeira_batendo.yy",},"order":14,},
     {"id":{"name":"P3_1","path":"sprites/P3_1/P3_1.yy",},"order":4,},
     {"id":{"name":"spr_template_solado","path":"sprites/spr_template_solado/spr_template_solado.yy",},"order":7,},
     {"id":{"name":"spr_inimigo_solado1","path":"sprites/spr_inimigo_solado1/spr_inimigo_solado1.yy",},"order":7,},
@@ -292,6 +293,7 @@
     {"id":{"name":"OST_selecao1","path":"sounds/OST_selecao1/OST_selecao1.yy",},"order":1,},
     {"id":{"name":"template_leve","path":"scripts/template_leve/template_leve.yy",},"order":0,},
     {"id":{"name":"obj_paralax","path":"objects/obj_paralax/obj_paralax.yy",},"order":47,},
+    {"id":{"name":"Sound38","path":"sounds/Sound38/Sound38.yy",},"order":13,},
     {"id":{"name":"OST_selecao2","path":"sounds/OST_selecao2/OST_selecao2.yy",},"order":3,},
     {"id":{"name":"OST_selecao3","path":"sounds/OST_selecao3/OST_selecao3.yy",},"order":5,},
     {"id":{"name":"spr_luz","path":"sprites/spr_luz/spr_luz.yy",},"order":60,},
@@ -469,6 +471,7 @@
     {"id":{"name":"spr_cartao","path":"sprites/spr_cartao/spr_cartao.yy",},"order":56,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
     {"id":{"name":"obj_plataforma","path":"objects/obj_plataforma/obj_plataforma.yy",},"order":0,},
+    {"id":{"name":"Fonte_dialogo","path":"fonts/Fonte_dialogo/Fonte_dialogo.yy",},"order":5,},
     {"id":{"name":"spr_template_ultimate","path":"sprites/spr_template_ultimate/spr_template_ultimate.yy",},"order":10,},
     {"id":{"name":"spr_explica_botoes","path":"sprites/spr_explica_botoes/spr_explica_botoes.yy",},"order":42,},
     {"id":{"name":"spr_sangue_parede4","path":"sprites/spr_sangue_parede4/spr_sangue_parede4.yy",},"order":32,},

@@ -7,15 +7,6 @@ draw_set_color(c_white);
 
 
 
-
-if(instance_exists(obj_gato))and(obj_gato.sprite_index==spr_gato_telefone){
-
-if(!audio_is_playing(sfx_telefone)){audio_play_sound(sfx_telefone,0,0);}
-cont_luta--;
-cont_furtivo--;
-audio_sound_gain(loop1,0.5,0);
-}
-else
 if(modoinimigo==1){
 cont_luta++;
 cont_furtivo--;

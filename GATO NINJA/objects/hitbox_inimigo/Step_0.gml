@@ -69,7 +69,7 @@ y = dono.y+posY;
 
 if(target!=-1)and(place_meeting(x,y,target))and(target.vida>0)and(target.estado!=morto)and(!target.apanhou)and(target.estado!=solado)and(bateu==0)and(target.invuneravel==false)and(player!=target.player){
 
-audio_play_sound(punch,0,0);
+audio_play_sound(madeira_batendo,0,0);
 
 instance_create(x,y,obj_screenshake);
 if(descer){target.descer=true;target.alarm[2]=5;}
@@ -82,7 +82,7 @@ target.soladotempo = soladotempo;
 if(velxReal!=false){target.velocidadeX=velxReal;}
 target.velocidadeRotacao=velocidadeRotacao;
 target.vida -= vida;
-audio_play_sound(somHit,0,0);
+audio_play_sound(madeira_batendo,0,0);
 
 //efeito
 targetEfeito = instance_create(
