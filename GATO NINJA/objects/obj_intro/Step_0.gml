@@ -17,7 +17,7 @@ if(movimento_pendular<0){velocidade_pendular+=0.02};
 if(velocidade_pendular>1){velocidade_pendular=1}
 if(velocidade_pendular<-1){velocidade_pendular=-1}
 
-if(i==5)and(movimento_pendular==0){room_goto(Menu)};
+if(i==5)and(movimento_pendular==0){room_goto(Menu);setupGATO.cursorMenu=0;};
 
 
 

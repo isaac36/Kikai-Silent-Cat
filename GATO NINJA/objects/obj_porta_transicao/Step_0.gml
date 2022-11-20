@@ -1,5 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+if(room==Intro)or(room==Menu){instance_destroy()}
+
 if(cont==30){instance_destroy()};
 
 image_index=cont;

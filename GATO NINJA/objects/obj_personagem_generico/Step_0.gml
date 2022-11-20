@@ -113,7 +113,7 @@ script_execute(estado);
 if(img_parado=spr_gato_parado){
 	
 if(place_meeting(x,y,obj_oportunidade))and(img_parado==spr_gato_parado){assassinatoVida=instance_nearest(x,y,obj_oportunidade).vida;alvo=instance_nearest(x,y,obj_oportunidade).dono;}else{alvo=-1;}
-if(abs(distanciaDoAlvo)<=distanciaExecucao)and(alvo!=-1)and(BOTAO_ATAQUE2)and(estado!=gato_hitkill)and(assassinatoCD==false){ultimoalvo=alvo;estado=gato_assassinato;cont_animacao=0;descer=true;alarm[2]=20;assassinatoCD=true;alarm[10]=40;distanciaExecucao = 9999990;}
+if(!(estado==agachar and place_meeting(x,y-17,obj_wall)))and(estado!=soladoAgachado)and(estado!=solado)and(abs(distanciaDoAlvo)<=distanciaExecucao)and(alvo!=-1)and(BOTAO_ATAQUE2)and(estado!=gato_hitkill)and(assassinatoCD==false){ultimoalvo=alvo;estado=gato_assassinato;cont_animacao=0;descer=true;alarm[2]=20;assassinatoCD=true;alarm[10]=40;distanciaExecucao = 9999990;}
 
 }
 

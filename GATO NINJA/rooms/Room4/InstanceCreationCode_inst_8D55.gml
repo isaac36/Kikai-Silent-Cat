@@ -7,7 +7,7 @@ face[0]=spr_tijolao;
 lado[0]=-1;
 animacao[0] = atendendo_telefone;
 
-fala[1]="Para abrir essas passagens você precisa procurar os cartões de acesso.";
+fala[1]="Para abrir essas passagens você precisa procurar os cartões de acesso. Quando você tiver itens temporários eles serão mostrados no superior da tela.";
 face[1]=spr_tijolao;
 lado[1]=-1;
 animacao[1] = atendendo_telefone2;

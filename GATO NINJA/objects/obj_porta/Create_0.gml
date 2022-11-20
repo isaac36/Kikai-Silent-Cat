@@ -12,3 +12,4 @@ pode_abrir=true;
 cor = 255;
 tendencia = 255;
 depth = 11;
+fechar = false;

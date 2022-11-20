@@ -4,6 +4,8 @@ function bossmorto(){
 	
 	if(!dropou){instance_create(x,y,obj_chavefinal);dropou=true;}
 	
+	global.chefaoMorto1 = true;
+	
 	if(veldir==1){lado="esquerda";}else{lado="direita";}
 	modo="morto";
 	sprite_index = img_morto;

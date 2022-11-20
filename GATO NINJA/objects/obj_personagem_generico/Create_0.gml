@@ -1,4 +1,5 @@
 //IA
+randomize();
 IA_luta = IA_luta1;
 IA_patrulha = IA_patrulha1;
 modo=false;
@@ -93,7 +94,7 @@ img_caindo = spr_caindo;
 img_andando = spr_andando;
 img_escorar = spr_quadrado;
 img_jogado = spr_template_jogado;
-
+img_solado_agachado = spr_gato_agachado_solado;
 
 
 

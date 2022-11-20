@@ -2,6 +2,13 @@
 // Você pode escrever seu código neste editor
 window_set_fullscreen(true);
 
+
+global.chavea=0;
+global.chaveb=0;
+global.chavefinal=false;
+
+global.chefaoMorto1 = "vivo";
+
 modoleve=true;
 
 modo=2;

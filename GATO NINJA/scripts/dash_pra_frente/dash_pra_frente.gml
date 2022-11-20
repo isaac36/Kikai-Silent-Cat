@@ -4,10 +4,16 @@ function dash_pra_frente() {
 	
 	velocidadeY=0;
 
-	if(cont_animacao==0){audio_play_sound(dashsound,0,0);
+	if(cont_animacao==0){
+		
+		if(BOTAO_DIREITA){lado="direita"}
+		if(BOTAO_ESQUERDA){lado="esquerda"}
+		
+		
+		audio_play_sound(dashsound,0,0);
 		target = instance_create(x+5*dir,y,obj_poeira_correndo);
 		target.image_xscale = -dir;
-		
+	
 		}
 		
     

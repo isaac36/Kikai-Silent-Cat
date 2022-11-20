@@ -15,7 +15,6 @@ if(modo==1){
 
 
 if(room==Menu){limiteMenu=2};
-if(room==room_Creditos){limiteMenu=0};
 
 if(apertou==false){
 	

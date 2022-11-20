@@ -35,5 +35,6 @@ img_agarrao1 = spr_boss_agarrao;
 img_agarrao2 = spr_boss_agarrou;
 img_agarrao3 = spr_boss_agarrou2;
 img_morto = spr_boss_morto;
+img_solado = spr_boss_solado;
 escalaX=1;
 escalaY=1;

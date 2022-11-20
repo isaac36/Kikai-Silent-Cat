@@ -1,14 +1,21 @@
 
 event_inherited();
 
+//RESETAVEL
 chavea=0;
 chaveb=0;
+chavefinal =false;
+//
+
+global.ondeX=x;
+global.ondeY=y;
 
 if(!instance_exists(obj_PAUSE)){instance_create(x,y,obj_PAUSE)};
 
 frequencia_desenho = 0;
 
 cont_gameover=0;
+gameover_cursor=0;
 
 ultimoalvo = -1;
 
@@ -28,7 +35,7 @@ ultimosanguehit = -1;
 
 antinerciaBase = 0.6;
 depth = 0;
-chavefinal =false;
+
 
 
 img_parado = spr_gato_parado;
@@ -43,6 +50,7 @@ img_escorar = spr_gato_escalando;
 img_escorando = spr_gato_escorando;
 img_jogado = spr_gato;
 img_morto = spr_gato_morto;
+img_solado_agachado = spr_gato_agachado_solado;
 
 
 

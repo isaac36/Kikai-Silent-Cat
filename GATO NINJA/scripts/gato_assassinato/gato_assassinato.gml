@@ -19,6 +19,10 @@ if(cont_animacao==0){
 	
 	
 	
+	
+	
+	
+	
 	tempo=(alvo.x-x)/velocidadeX;
 	velocidadeY = ((alvo.y-alvo.sprite_height/2)-y)/tempo;
 	
@@ -45,5 +49,10 @@ if(cont_animacao=30){
 }
 
 
+
+
+
+
+if(alvo.y<=y){descer=false}
 
 }

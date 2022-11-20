@@ -1,6 +1,8 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+draw_self();
+
 //cor = make_color_hsv(irandom_range(100,255),irandom_range(100,255),irandom_range(100,255));
 
 //cor = make_color_rgb(200,200,0);

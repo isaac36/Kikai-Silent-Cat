@@ -7,7 +7,7 @@
     "path": "sprites/spr_visao_inimigo/spr_visao_inimigo.yy",
   },
   "solid": false,
-  "visible": false,
+  "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

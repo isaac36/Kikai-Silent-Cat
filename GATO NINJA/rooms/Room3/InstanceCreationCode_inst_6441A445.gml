@@ -12,7 +12,7 @@ face[1]=spr_tijolao;
 lado[1]=-1;
 animacao[1] = atendendo_telefone2;//false se nao tem
 
-fala[2]="Você pode rastejar para passar por lugares estreitos com (S+D) ou (S+A)";
+fala[2]="Você pode rastejar para passar por lugares estreitos com (S+D) ou (S+A).";
 face[2]=spr_tijolao;
 lado[2]=-1;
 animacao[2] = atendendo_telefone2;//false se nao tem

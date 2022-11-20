@@ -8,7 +8,7 @@ lado[0]=-1;
 animacao[0] = atendendo_telefone;//false se nao tem
 
 
-fala[1]="Para atacar um inimigo use a tecla (U), você tambem fica invunerável para desviar de ataques inimigos usando a tecla (I).";
+fala[1]="Para atacar um inimigo use a tecla (U). Você támbem pode avançar para desviar de ataques inimigos utilizando a tecla (I).";
 face[1]=spr_tijolao;
 lado[1]=-1;
 animacao[1] = atendendo_telefone2;//false se nao tem
@@ -24,7 +24,7 @@ lado[3]=-1;
 animacao[3] = atendendo_telefone2;//false se nao tem
 
 
-fala[4]="Tente nessa lixeira a direita";
+fala[4]="Tente nessa lixeira a direita.";
 face[4]=spr_tijolao;
 lado[4]=-1;
 animacao[4] = atendendo_telefone2;//false se nao tem

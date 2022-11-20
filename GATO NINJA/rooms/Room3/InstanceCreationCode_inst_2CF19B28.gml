@@ -1,5 +1,5 @@
 comeco = 0;
-fim = 2;
+fim = 5;
 
 
 fala[0]="...";
@@ -17,7 +17,17 @@ face[2]=spr_tijolao;
 lado[2]=-1;
 animacao[2] = atendendo_telefone2;//false se nao tem
 
-fala[3]="...";
+fala[3]="Voce pode descer de plataformas usando: (S+J)";
 face[3]=spr_tijolao;
 lado[3]=-1;
-animacao[3] = atendendo_telefone3;//false se nao tem
+animacao[3] = atendendo_telefone2;//false se nao tem
+
+fala[4]="Tente descer dessa plataforma na sua frente e assassinar o guarda.";
+face[4]=spr_tijolao;
+lado[4]=-1;
+animacao[4] = atendendo_telefone2;//false se nao tem
+
+fala[5]="...";
+face[5]=spr_tijolao;
+lado[5]=-1;
+animacao[5] = atendendo_telefone3;//false se nao tem

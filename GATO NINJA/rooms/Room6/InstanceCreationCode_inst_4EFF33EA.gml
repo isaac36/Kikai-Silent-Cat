@@ -15,3 +15,5 @@ fala[2]="...";
 face[2]=spr_tijolao;
 lado[2]=-1;
 animacao[2] = atendendo_telefone3;
+
+if(global.chefaoMorto1==true){instance_destroy()};

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "boss1",
   "spriteId": {
-    "name": "spr_boss_dash",
-    "path": "sprites/spr_boss_dash/spr_boss_dash.yy",
+    "name": "spr_boss_parado",
+    "path": "sprites/spr_boss_parado/spr_boss_parado.yy",
   },
   "solid": false,
   "visible": true,

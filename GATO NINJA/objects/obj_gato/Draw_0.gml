@@ -12,7 +12,7 @@ if(instance_exists(obj_porta)){
 frequencia_desenho = frequencia_desenho+0.5;
 if(frequencia_desenho>20){frequencia_desenho=0}
 	
-if((porta!="naotem")and(place_meeting(x,y,porta))and(porta.pode_abrir==true))or((distance_to_object(obj_trancado_wall)<4)and(obj_gato.chavea>0))or((distance_to_object(obj_trancado_wall)<4)and(obj_gato.chaveb>0))or((distance_to_object(obj_trancado_wall)<4)and(obj_gato.chavea>0)){
+if((porta!="naotem")and(porta.fechar==false)and(place_meeting(x,y,porta))and(porta.pode_abrir==true))or((distance_to_object(obj_trancado_wall)<4)and(obj_gato.chavea>0))or((distance_to_object(obj_trancado_wall)<4)and(obj_gato.chaveb>0))or((distance_to_object(obj_trancado_wall)<4)and(obj_gato.chavea>0)){
 
 draw_sprite(spr_botao,floor(frequencia_desenho/10),x,y-80);
 

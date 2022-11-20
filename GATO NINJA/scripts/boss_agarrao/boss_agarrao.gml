@@ -15,6 +15,7 @@ function boss_agarrao(){
 	image_index=sprite_get_number(sprite_index)-1;	
 			
 			
+			
 	//oportunidade para assassinar
 	if(!place_meeting(x,y,obj_oportunidade)){
 	targeto=instance_create(x-(dir*sprite_width/2),y,obj_oportunidade_parcial);
@@ -23,7 +24,7 @@ function boss_agarrao(){
 	targeto.lado = lado;
 	targeto.target = obj_gato.y;
 	targeto.tempo = 65;
-	targeto.vida = 100;
+	targeto.vida = 200;
 	targeto.image_xscale = 4;
 	targeto.image_yscale = 4;
 	targeto.distanciaExecucao = 200;

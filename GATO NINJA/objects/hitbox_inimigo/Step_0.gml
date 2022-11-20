@@ -74,7 +74,8 @@ audio_play_sound(madeira_batendo,0,0);
 instance_create(x,y,obj_screenshake);
 if(descer){target.descer=true;target.alarm[2]=5;}
 target.cont_animacao=0;
-target.estado=estado;
+if(target.estado!=agachar){target.estado=estado} else
+{target.estado=soladoAgachado};
 target.soladovelx=velx;
 target.soladovely=vely;
 target.veldir=veldir;
