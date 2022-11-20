@@ -1,6 +1,7 @@
 
 function IA_patrulha1(){
 	
+
 	img_andando = spr_inimigo_andando;
 	
 if(instance_exists(obj_gato)){vargato = instance_nearest(x,y,obj_gato)}else{vargato=-1}
@@ -42,7 +43,7 @@ if(contIA%10==0){
 	
 	
 		//cabeca
-	target=instance_create(x,y-sprite_height+15,obj_inimigo_visao);
+	target=instance_create(x,y-sprite_height+17,obj_inimigo_visao);
 	target.dono=id;
 	target.dir=patrulhadir;
 	target.lado = lado;

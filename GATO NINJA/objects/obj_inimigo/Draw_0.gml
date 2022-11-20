@@ -1,5 +1,15 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+if(modo=="patrulha")and(img_parado=spr_inimigo_parado){
+draw_set_alpha(0.2);
+draw_circle(x, y, 300, true);
+draw_set_alpha(1);
+}
+
+
+
+
+
 
 draw_self();
 
@@ -26,3 +36,4 @@ draw_sprite_ext(spr_barrinha_de_life,0,(x+i)-(vidamax/2),y-80,1,1,0,c_white,1);
 /*
 draw_text(x,y-150,"modo: "+string(modo));
 draw_text(x,y-170,"estado: "+string(script_get_name(estado)));
+*/
