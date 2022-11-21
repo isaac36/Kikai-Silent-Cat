@@ -1,9 +1,27 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-if(modo=="patrulha")and(img_parado=spr_inimigo_parado){
-draw_set_alpha(0.2);
+movimento_pendular = movimento_pendular + velocidade_pendular;
+
+if(movimento_pendular>10){velocidade_pendular-=0.2};
+if(movimento_pendular<-10){velocidade_pendular+=0.2};
+
+
+if(velocidade_pendular>2){velocidade_pendular=2}
+if(velocidade_pendular<-2){velocidade_pendular=-2}
+
+
+
+
+
+
+
+if(modo=="patrulha")and(img_parado=spr_inimigo_parado)and(distance_to_object(obj_gato)<500){
+draw_set_alpha((0.01*(movimento_pendular+10)/2)+0.25);
 draw_circle(x, y, 300, true);
+draw_circle(x, y, 299, true);
+draw_sprite_ext(spr_cone_visao,0,x,y-sprite_height+25,dir,1,0,c_white,(0.01*(movimento_pendular+10)/2)+0.45);
 draw_set_alpha(1);
+
 }
 
 

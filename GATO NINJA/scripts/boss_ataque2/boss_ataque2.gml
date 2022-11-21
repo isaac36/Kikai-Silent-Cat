@@ -2,14 +2,19 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
 function boss_ataque2(){
 	
+	
+	
 	invuneravel=true;
 	sprite_index = img_dash;
+	
 	
 	image_index = floor(cont_animacao/4);
 	
 	if((cont_animacao/4)>=2){image_index=2};
 	
 	if(cont_animacao==0){
+		
+	audio_play_sound(bosspulando,0,0);
 	
 if(lado=="direita"){velocidadeAgarrao=velocidadeAgarrao}else{velocidadeAgarrao=-velocidadeAgarrao}
 

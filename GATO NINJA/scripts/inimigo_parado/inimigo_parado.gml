@@ -31,7 +31,7 @@ if(contIA%10==0){
 	
 	if(distance_to_object(gato)<300){
 		//pe
-	target=instance_create(x,y-sprite_height+15,obj_inimigo_visao);
+	target=instance_create(x,y-sprite_height+25,obj_inimigo_visao);
 	target.dono=id;
 	target.dir=patrulhadir;
 	target.lado = lado;
@@ -40,7 +40,7 @@ if(contIA%10==0){
 	
 	
 		//cabeca
-	target=instance_create(x,y-sprite_height+15,obj_inimigo_visao);
+	target=instance_create(x,y-sprite_height+25,obj_inimigo_visao);
 	target.dono=id;
 	target.dir=patrulhadir;
 	target.lado = lado;

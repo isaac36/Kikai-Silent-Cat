@@ -24,8 +24,9 @@ function gato_hitkill(){
 	target.telavermelha = true;
 	target.sangue = true;
 	target.efeitoSangue = obj_sangue2_fx;
-	audio_play_sound(sfx_hitAr,0,0);
+	audio_play_sound(sfx_cortecabeca,0,0);
 	target.somHit = sfx_inimigo_hitado2;
+	
 	
 	//Hitkill
 	if(instance_exists(obj_inimigo))and(assassinatoVida==false){

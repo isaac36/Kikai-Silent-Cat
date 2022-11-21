@@ -5,6 +5,8 @@ function boss_agarrao2(){
 		obj_gato.estado = gato_agarrado;
 	
 		sprite_index = img_agarrao2;
+		
+		if(cont_animacao==0){audio_play_sound(risadaagarrao,0,0);audio_stop_sound(bosspulando);}
 	
 		proporcao = sprite_get_number(sprite_index)/50;
 	

@@ -13,7 +13,9 @@ function escorar() {
 	}
 
 	
-if(cont_animacao==0){sprite_index=spr_gato_escorando;image_index=0;preparando=true;velocidadeY=0;tendencia=0;} 
+if(cont_animacao==0){sprite_index=spr_gato_escorando;image_index=0;preparando=true;velocidadeY=0;tendencia=0;
+	
+	audio_play_sound(pulandoparedesond,0,0)} 
 
 
 	
@@ -27,7 +29,12 @@ if(cont_animacao==0){sprite_index=spr_gato_escorando;image_index=0;preparando=tr
 	if(!place_meeting(x+dir,y,obj_wall)){estado=caindo;sprite_index=img_caindo;}
 
 	if(BOTAO_CIMA)and(preparando==false){velocidadeY=velocidadeY-1;}
-	if(BOTAO_BAIXO)and(preparando==false){velocidadeY=velocidadeY+1;}
+	if(BOTAO_BAIXO)and(preparando==false){velocidadeY=velocidadeY+1;
+		
+	if(!audio_is_playing(deslizandoparedesound)){audio_play_sound(deslizandoparedesound,0,0);}
+		
+		
+		};
 	
 	if(velocidadeY>6){velocidadeY=6;}
 	if(velocidadeY<-3){velocidadeY=-3;}
@@ -96,8 +103,8 @@ if(cont_animacao==0){sprite_index=spr_gato_escorando;image_index=0;preparando=tr
 	   
 	   
 	   
-	if(lado=="esquerda")and(BOTAO_PULO)and(!BOTAO_BAIXO){pulo--;velocidadeY = -altura_pulo;velocidadeX=10;estado=pulando2;cont_animacao=0;target=instance_create(x+(-15),y-(sprite_height/2),obj_poeira_pulo_ar);target.image_angle=90*dir;}else 
-	if(lado=="direita")and(BOTAO_PULO)and(!BOTAO_BAIXO){pulo--;velocidadeY = -altura_pulo;velocidadeX=-10;estado=pulando2;cont_animacao=0;target=instance_create(x+(+15),y-(sprite_height/2),obj_poeira_pulo_ar);target.image_angle=90*dir;}
+	if(lado=="esquerda")and(BOTAO_PULO)and(!BOTAO_BAIXO){pulo--;velocidadeY = -altura_pulo;velocidadeX=10;estado=pulando2;cont_animacao=0;target=instance_create(x+(-15),y-(sprite_height/2),obj_poeira_pulo_ar);target.image_angle=90*dir;audio_play_sound(pulosound,0,0)}else 
+	if(lado=="direita")and(BOTAO_PULO)and(!BOTAO_BAIXO){pulo--;velocidadeY = -altura_pulo;velocidadeX=-10;estado=pulando2;cont_animacao=0;target=instance_create(x+(+15),y-(sprite_height/2),obj_poeira_pulo_ar);target.image_angle=90*dir;audio_play_sound(pulosound,0,0)}
 	
 	
 	if(BOTAO_PULO)and(BOTAO_BAIXO){estado=caindo;cont_animacao=0;sprite_index=img_caindo;} 

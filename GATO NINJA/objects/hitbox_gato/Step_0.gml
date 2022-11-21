@@ -110,6 +110,13 @@ dono.ultimosangueparede = instance_create(x,y-(sprite_height/2),obj_sangue_pared
 if(telavermelha == true){//and(!((room==Room5))){
 telavermelha = instance_create(x,y,obj_tela_vermela);
 telavermelha.dono = dono;
+cabecavoando = 0;//irandom_range(0,1);//MUDEISSO
+if(target.img_parado==spr_inimigo_parado)and(cabecavoando==0){target.estadomorto = inimigo1_decepado;
+		cabeca = instance_create(x,y-sprite_height+30,obj_cabeca_cortada);
+		cabeca.velangulo = irandom_range(-25,25);
+		cabeca.velx = irandom_range(-7,7);
+		cabeca.velV = irandom_range(-16,-2);
+	}
 
 
 //if((!((room==Room5)))){

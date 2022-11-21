@@ -37,7 +37,7 @@ cont++;
 
 if(desapareca==true){
 
-image_alpha = image_alpha - 0.1;
+image_alpha = image_alpha - vel;
 
 if(image_alpha<=0){instance_destroy()};
 

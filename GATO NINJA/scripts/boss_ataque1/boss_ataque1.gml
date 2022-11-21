@@ -28,13 +28,19 @@ function boss_ataque1(){
 	target.soladotempo = 30;
 	target.efeito = target.efeitoforte;
 	target.somHit = punch;
-	audio_play_sound(sfx_hitAr,0,0);
+	//audio_play_sound(sfx_hitAr,0,0);
 	target.image_yscale = 2;
 	target.image_xscale = 2;
 	target.vida = 10;
 	target.sangue = true;
-	audio_play_sound(sfx_hitAr,0,0);
+	target.somHit = batendo_;
 	target.sangue = true;
+	
+	som = irandom_range(0,1);
+	
+	if(som==0){som=bosshit1;}else{som=bosshit2}
+	
+	audio_play_sound(som,0,0);
 	}
 	
 	if(place_meeting(x+velocidadeX,y,obj_gato)){velocidadeX=0;}

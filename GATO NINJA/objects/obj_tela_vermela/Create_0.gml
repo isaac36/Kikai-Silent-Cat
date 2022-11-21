@@ -3,6 +3,8 @@
 desapareca = false;
 cont=0;
 
+vel=0.1;
+
 depth = -99999;
 
 image_xscale = 20;

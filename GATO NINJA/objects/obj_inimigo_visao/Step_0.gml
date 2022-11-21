@@ -13,6 +13,9 @@ velocidadeY = (target-y)/tempo;
 
 
 velocidadeY=abs(velocidadeY);
+//apague isso
+velocidadeY=3;
+//
 if(velocidadeY>3){velocidadeY=3}
 if(target<y){velocidadeY=-velocidadeY;}
 //FINALIAR
@@ -62,5 +65,17 @@ if(distance_to_object(dono)>300){instance_destroy();}
 }
 else{instance_destroy()}
 
+
+
+
+
+
+
+
+
+
+
 if(place_meeting(x,y,obj_wall)){instance_destroy()}
+
+if(place_meeting(x,y,obj_AreaSafeDaVisaoDosPM)){instance_destroy();}
 

@@ -8,6 +8,12 @@ draw_sprite_ext(dono.sprite_index,dono.image_index,dono.x,dono.y,dono.image_xsca
 
 draw_sprite_ext(dono.ultimoalvo.sprite_index,dono.ultimoalvo.image_index,dono.ultimoalvo.x,dono.ultimoalvo.y,dono.ultimoalvo.image_xscale,dono.ultimoalvo.image_yscale,dono.ultimoalvo.image_angle,make_color_rgb(0,0,0),image_alpha)
 
-if(instance_exists(dono.ultimosangueparede)){draw_sprite_ext(dono.ultimosangueparede.sprite_index,dono.ultimosangueparede.image_index,dono.ultimosangueparede.x,dono.ultimosangueparede.y,dono.ultimosangueparede.image_xscale,dono.ultimosangueparede.image_yscale,dono.ultimosangueparede.image_angle,make_color_rgb(0,0,0),image_alpha)}
+if(dono==obj_gato)and(instance_exists(dono.ultimosangueparede)){draw_sprite_ext(dono.ultimosangueparede.sprite_index,dono.ultimosangueparede.image_index,dono.ultimosangueparede.x,dono.ultimosangueparede.y,dono.ultimosangueparede.image_xscale,dono.ultimosangueparede.image_yscale,dono.ultimosangueparede.image_angle,make_color_rgb(0,0,0),image_alpha)}
 
-if(instance_exists(dono.ultimosanguehit)){draw_sprite_ext(dono.ultimosanguehit.sprite_index,dono.ultimosanguehit.image_index,dono.ultimosanguehit.x,dono.ultimosanguehit.y,dono.ultimosanguehit.image_xscale,dono.ultimosanguehit.image_yscale,dono.ultimosanguehit.image_angle,make_color_rgb(0,0,0),image_alpha)}
+if(dono==obj_gato)and(instance_exists(dono.ultimosanguehit)){draw_sprite_ext(dono.ultimosanguehit.sprite_index,dono.ultimosanguehit.image_index,dono.ultimosanguehit.x,dono.ultimosanguehit.y,dono.ultimosanguehit.image_xscale,dono.ultimosanguehit.image_yscale,dono.ultimosanguehit.image_angle,make_color_rgb(0,0,0),image_alpha)}
+
+
+
+//cabeca
+if(instance_exists(obj_cabeca_cortada)){draw_sprite_ext(obj_cabeca_cortada.sprite_index,obj_cabeca_cortada.image_index,obj_cabeca_cortada.x,obj_cabeca_cortada.y,obj_cabeca_cortada.image_xscale,obj_cabeca_cortada.image_yscale,obj_cabeca_cortada.angulo,make_color_rgb(0,0,0),image_alpha)}
+

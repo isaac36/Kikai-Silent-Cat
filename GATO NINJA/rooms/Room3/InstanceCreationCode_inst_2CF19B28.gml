@@ -12,7 +12,7 @@ face[1]=spr_tijolao;
 lado[1]=-1;
 animacao[1] = atendendo_telefone2;//false se nao tem
 
-fala[2]="Mas cuidado, o assassinato nem sempre funciona. Então facilite seu posicionamento andes de apertar (K)";
+fala[2]="Para aplicar um assassinato é necessário ter cautela, por isso lembre-se de se posicionar corretamente em um ponto estratégico antes de apertar a tecla (K)";
 face[2]=spr_tijolao;
 lado[2]=-1;
 animacao[2] = atendendo_telefone2;//false se nao tem

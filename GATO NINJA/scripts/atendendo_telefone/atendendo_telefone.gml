@@ -23,4 +23,7 @@ function atendendo_telefone(){
 	cont_cena++;
 	if(cont_cena>95){cont_cena=50;pode_passar=true;}
 
+
+
+
 }

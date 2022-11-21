@@ -14,8 +14,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sfx_telefone.mp3",
-  "duration": 1.906925,
+  "soundFile": "sfx_telefone.wav",
+  "duration": 4.3145,
   "parent": {
     "name": "Sons SilentCat",
     "path": "folders/Sons/Sons SilentCat.yy",

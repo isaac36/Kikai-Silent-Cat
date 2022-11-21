@@ -1,5 +1,6 @@
 //IA
 randomize();
+
 IA_luta = IA_luta1;
 IA_patrulha = IA_patrulha1;
 modo=false;
@@ -72,7 +73,7 @@ velxReal=false;
 ale = 0;
 chargeforce=0;
 velocidadeRotacao=0;
-
+saiucabeca=false;
 
 CD_baixo_ataque = false;
 CD_cima_ataque = false;
@@ -95,7 +96,7 @@ img_andando = spr_andando;
 img_escorar = spr_quadrado;
 img_jogado = spr_template_jogado;
 img_solado_agachado = spr_gato_agachado_solado;
-
+img_decepado=spr_inimigo_solado2;
 
 
 img_ataque_leve = spr_template_fraco1;

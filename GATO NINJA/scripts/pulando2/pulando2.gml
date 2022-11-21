@@ -9,7 +9,7 @@ function pulando2(){
 	
 	if(place_meeting(x,y+1,obj_wall)){estado=parado;}
 
-	if(cont_animacao==0){audio_play_sound(pulosound,0,0);cont_animacao++}
+	//if(cont_animacao==0){audio_play_sound(pulosound,0,0);cont_animacao++}
 
 	if(velocidadeY>13)sprite_index = img_impulso;
 
@@ -59,13 +59,13 @@ function pulando2(){
 		//pendurar
 	if(img_parado==spr_gato_parado)and(lado="direita")and(velocidadeX>0)and(place_meeting(x+1,y,obj_wall_escalavel))and(!place_meeting(x,y+5,obj_wall)){
 
-	estado = escorar;cont_animacao=0;
+	estado = escorar;cont_animacao=0;audio_play_sound(pulandoparedesond,0,0);
 
 	}
 	
 	if(img_parado==spr_gato_parado)and(lado="esquerda")and(velocidadeX<0)and(place_meeting(x-1,y,obj_wall_escalavel))and(!place_meeting(x,y+5,obj_wall)){
 
-	estado = escorar;cont_animacao=0;
+	estado = escorar;cont_animacao=0;audio_play_sound(pulandoparedesond,0,0);
 
 	}
 

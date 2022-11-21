@@ -8,6 +8,7 @@
 // Inherit the parent event
 event_inherited();
 
+audio_play_sound(bossspaw,0,0);
 dropou=false;
 atacou = false;
 cont_boss = 0;
@@ -34,7 +35,7 @@ img_ataque_leve = spr_boss_ataque;
 img_agarrao1 = spr_boss_agarrao;
 img_agarrao2 = spr_boss_agarrou;
 img_agarrao3 = spr_boss_agarrou2;
-img_morto = spr_boss_morto;
+img_morto = spr_boss_mortoOficial;
 img_solado = spr_boss_solado;
-escalaX=1;
-escalaY=1;
+escalaX=1.2;
+escalaY=1.2;

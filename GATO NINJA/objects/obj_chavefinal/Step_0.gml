@@ -2,6 +2,6 @@
 // Você pode escrever seu código neste editor
 
 
-if(place_meeting(x,y,obj_gato)){obj_gato.chavefinal=true;instance_destroy()}
+if(place_meeting(x,y,obj_gato)){obj_gato.chavefinal=true;audio_play_sound(item,0,0);instance_destroy()}
 
 

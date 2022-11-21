@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_luz",
   "spriteId": {
-    "name": "spr_luz",
-    "path": "sprites/spr_luz/spr_luz.yy",
+    "name": "Luz",
+    "path": "sprites/Luz/Luz.yy",
   },
   "solid": false,
   "visible": true,

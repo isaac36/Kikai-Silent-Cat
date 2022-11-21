@@ -7,7 +7,8 @@ vida=120;
 estadomorto=inimigo1_morto;
 velocidadePersonagem = 1;
 portafechada = -1;
-
+movimento_pendular = 0;
+velocidade_pendular = 2;
 
 //cormorte
 	morteR = 255;
