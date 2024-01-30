@@ -1,10 +1,8 @@
-if(room==Menu)or(room==Intro){instance_destroy();}
-
 
 if(global.pause==true){
 	
 	if(salvei==false){
-	
+	 
 	Save_sprite_index = sprite_index;
 	Save_image_index = image_index;
 	SaveAlarm0 = alarm[0];

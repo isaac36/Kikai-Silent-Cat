@@ -14,7 +14,7 @@ velocidadeY = (target-y)/tempo;
 
 velocidadeY=abs(velocidadeY);
 //apague isso
-velocidadeY=3;
+velocidadeY=3; 
 //
 if(velocidadeY>3){velocidadeY=3}
 if(target<y){velocidadeY=-velocidadeY;}

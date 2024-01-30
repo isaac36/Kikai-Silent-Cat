@@ -1,4 +1,4 @@
-/// @description Inserir descrição aqui
+  /// @description Inserir descrição aqui
 
 global.pause=false;
 global.dialogo=false;

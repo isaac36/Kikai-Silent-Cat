@@ -11,7 +11,7 @@ fala[0]="Meu fi para de inventar estado aí";
 face[0]=spr_gato;
 lado[0]=1;
 animacao[0] = cena1;//false se nao tem
-
+ 
 */
 
 

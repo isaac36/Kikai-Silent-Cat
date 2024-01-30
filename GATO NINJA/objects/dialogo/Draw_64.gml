@@ -4,7 +4,7 @@
 draw_set_font(Fonte_dialogo);
 draw_set_halign(fa_middle);
 
-
+ 
 movimento_pendular = movimento_pendular + velocidade_pendular;
 
 if(movimento_pendular>10){velocidade_pendular-=0.05};

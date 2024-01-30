@@ -4,7 +4,7 @@
 //draw_self();
 
 
-
+ 
 frequencia_desenho = frequencia_desenho+1;
 if(frequencia_desenho>10){frequencia_desenho=0}
 
@@ -31,3 +31,4 @@ tendencia = 0;
 
 }
 
+ 

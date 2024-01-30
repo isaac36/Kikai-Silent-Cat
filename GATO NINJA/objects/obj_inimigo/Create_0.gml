@@ -1,4 +1,4 @@
-event_inherited();
+ event_inherited();
 mascara = spr_gato_colisao_mask;
 IA_luta = IA_luta1;
 IA_patrulha = IA_patrulha1;
