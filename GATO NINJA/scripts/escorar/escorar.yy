@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "escorar",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "genericos",
-    "path": "folders/Scripts/genericos.yy",
+  "$GMScript":"",
+  "%Name":"escorar",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"escorar",
+  "parent":{
+    "name":"genericos",
+    "path":"folders/Scripts/genericos.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

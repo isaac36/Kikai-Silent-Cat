@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "boss_agarrao3",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Inimigos",
-    "path": "folders/Scripts/Inimigos.yy",
+  "$GMScript":"",
+  "%Name":"boss_agarrao3",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"boss_agarrao3",
+  "parent":{
+    "name":"Inimigos",
+    "path":"folders/Scripts/Inimigos.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

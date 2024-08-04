@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "parado",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "genericos",
-    "path": "folders/Scripts/genericos.yy",
+  "$GMScript":"",
+  "%Name":"parado",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"parado",
+  "parent":{
+    "name":"genericos",
+    "path":"folders/Scripts/genericos.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

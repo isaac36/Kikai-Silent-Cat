@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "IA_luta1",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Inimigos",
-    "path": "folders/Scripts/Inimigos.yy",
+  "$GMScript":"",
+  "%Name":"IA_luta1",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"IA_luta1",
+  "parent":{
+    "name":"Inimigos",
+    "path":"folders/Scripts/Inimigos.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

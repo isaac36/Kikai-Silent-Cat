@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "dashAr",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "genericos",
-    "path": "folders/Scripts/genericos.yy",
+  "$GMScript":"",
+  "%Name":"dashAr",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"dashAr",
+  "parent":{
+    "name":"genericos",
+    "path":"folders/Scripts/genericos.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "caindo",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "genericos",
-    "path": "folders/Scripts/genericos.yy",
+  "$GMScript":"",
+  "%Name":"caindo",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"caindo",
+  "parent":{
+    "name":"genericos",
+    "path":"folders/Scripts/genericos.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

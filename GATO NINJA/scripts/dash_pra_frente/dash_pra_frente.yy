@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "dash_pra_frente",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "genericos",
-    "path": "folders/Scripts/genericos.yy",
+  "$GMScript":"",
+  "%Name":"dash_pra_frente",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"dash_pra_frente",
+  "parent":{
+    "name":"genericos",
+    "path":"folders/Scripts/genericos.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

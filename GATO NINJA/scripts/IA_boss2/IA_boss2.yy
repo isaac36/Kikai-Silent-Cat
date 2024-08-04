@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "IA_boss2",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Inimigos",
-    "path": "folders/Scripts/Inimigos.yy",
+  "$GMScript":"",
+  "%Name":"IA_boss2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"IA_boss2",
+  "parent":{
+    "name":"Inimigos",
+    "path":"folders/Scripts/Inimigos.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

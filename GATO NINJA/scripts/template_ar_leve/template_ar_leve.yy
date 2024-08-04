@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "template_ar_leve",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "leve",
-    "path": "folders/Scripts/template/ar/leve.yy",
+  "$GMScript":"",
+  "%Name":"template_ar_leve",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"template_ar_leve",
+  "parent":{
+    "name":"leve",
+    "path":"folders/Scripts/template/ar/leve.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "template_ar_forte",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "forte",
-    "path": "folders/Scripts/template/ar/forte.yy",
+  "$GMScript":"",
+  "%Name":"template_ar_forte",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"template_ar_forte",
+  "parent":{
+    "name":"forte",
+    "path":"folders/Scripts/template/ar/forte.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

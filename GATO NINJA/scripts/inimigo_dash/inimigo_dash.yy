@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "inimigo_dash",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Inimigos",
-    "path": "folders/Scripts/Inimigos.yy",
+  "$GMScript":"",
+  "%Name":"inimigo_dash",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"inimigo_dash",
+  "parent":{
+    "name":"Inimigos",
+    "path":"folders/Scripts/Inimigos.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

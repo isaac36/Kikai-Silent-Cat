@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "saci_ataque2",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "saci",
-    "path": "folders/Scripts/saci.yy",
+  "$GMScript":"",
+  "%Name":"saci_ataque2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"saci_ataque2",
+  "parent":{
+    "name":"saci",
+    "path":"folders/Scripts/saci.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

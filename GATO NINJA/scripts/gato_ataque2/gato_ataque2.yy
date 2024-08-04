@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "gato_ataque2",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "gato",
-    "path": "folders/Scripts/gato.yy",
+  "$GMScript":"",
+  "%Name":"gato_ataque2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"gato_ataque2",
+  "parent":{
+    "name":"gato",
+    "path":"folders/Scripts/gato.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

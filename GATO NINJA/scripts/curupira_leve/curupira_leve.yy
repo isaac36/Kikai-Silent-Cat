@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "curupira_leve",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "curupira",
-    "path": "folders/Scripts/gato/curupira.yy",
+  "$GMScript":"",
+  "%Name":"curupira_leve",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"curupira_leve",
+  "parent":{
+    "name":"curupira",
+    "path":"folders/Scripts/gato/curupira.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }
